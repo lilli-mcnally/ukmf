@@ -2,6 +2,7 @@
 
 body {
     font-family: "Quicksand", sans-serif;
+    background-color: #F3EFF6;
 }
 
 .font-p {
@@ -109,16 +110,15 @@ body {
 }
 
 .submit-btn {
-    background-color: #9592BF;
-    border-color: #585693;
+    background-color: #F3EFF6;
     border-width: 1px;
     border-radius: 10px;
 }
 
 .submit-btn:hover {
     border-width: 1px;
-    background-color: #fff;
-    border-color: #68BDCA;
+    background-color: #F3EFF6;
+    border-color: #585693;
 }
 
 
