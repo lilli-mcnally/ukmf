@@ -4,6 +4,10 @@ body {
     font-family: "Quicksand", sans-serif;
 }
 
+.new-section {
+    margin-top: 50px;
+}
+
 .image-div {
     background-color: pink;
     height: auto;
@@ -18,6 +22,22 @@ body {
 
 .break-mold {
     margin: 80px 0 50px 0;
+    font-size: 40px;
+}
+
+.break-text {
+    color: #585693;
+    font-weight: 700;
+}
+
+.build-text {
+    color: #40a7b4;
+    font-weight: 700;
+}
+
+.inspire-text {
+    color: #7995ae;
+    font-weight: 700;
 }
 
 .get-involved {
