@@ -4,6 +4,19 @@ body {
     font-family: "Quicksand", sans-serif;
 }
 
+.font-p {
+    font-size: 18px;
+}
+
+.two-font-weight {
+    font-weight: 200;
+}
+
+#logo {
+    font-size: 50px;
+    margin: 40px 0;
+}
+
 .new-section {
     margin-top: 50px;
 }
@@ -15,9 +28,24 @@ body {
 
 .event-date {
     height: 120px;
-    background-color: #000;
-    color: #fff;
+    background-color: #9592BF;
     border-radius: 30px;
+}
+
+#address-link {
+    text-decoration: none;
+    color:#000;
+}
+
+#address-link:hover {
+    text-decoration: underline;
+}
+
+.color-background {
+    padding: 10px 0;
+    border-radius: 25px;
+    background-color: #A3B6C8;
+    font-style: italic;
 }
 
 .break-mold {
@@ -25,22 +53,39 @@ body {
     font-size: 40px;
 }
 
-.break-text {
+#break-text {
     color: #585693;
     font-weight: 700;
 }
 
-.build-text {
+#build-text {
     color: #40a7b4;
     font-weight: 700;
 }
 
-.inspire-text {
+#inspire-text {
     color: #7995ae;
     font-weight: 700;
 }
 
 .get-involved {
-    background-color: aquamarine;
+    background-color: #68BDCA;
     border-radius: 30px;
+    font-weight: 500;
+}
+
+.submit-btn {
+    background-color: #9592BF;
+}
+
+.submit-btn {
+    background-color: #A3B6C8;
+    border-width: 1px;
+    border-color: #000;
+}
+
+.submit-btn:hover {
+    background-color: #fff;
+    border-width: 1px;
+    border-color: #000;
 }
