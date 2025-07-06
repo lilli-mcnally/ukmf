@@ -13,6 +13,14 @@ body {
     font-weight: 200;
 }
 
+.eight-font-weight {
+    font-weight: 800;
+}
+
+.green-text {
+    color: #40a7b4;
+}
+
 #logo {
     font-size: 50px;
     margin: 40px 0;
@@ -22,10 +30,15 @@ body {
     margin-top: 50px;
 }
 
+.get-involved-section {
+    margin-top: 120px;
+}
+
 .event-date {
     height: 80px;
-    background-color: #9592BF;
-    border-radius: 30px;
+    background-color: #BAB9D4;
+    position: absolute;
+    left: 0;
 }
 
 #address-link {
@@ -40,14 +53,6 @@ body {
 .image-div {
     max-width: 350px;
     border-radius: 10px;
-}
-
-.color-background {
-    padding: 10px 0;
-    border-radius: 25px;
-    background-color: #DCD0E2;
-    max-width: 800px;
-    font-style: italic;
 }
 
 .break-mold {
