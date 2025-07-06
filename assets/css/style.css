@@ -30,10 +30,6 @@ body {
     margin-top: 50px;
 }
 
-.get-involved-section {
-    margin-top: 120px;
-}
-
 .event-date {
     height: 80px;
     background-color: #BAB9D4;
@@ -51,9 +47,15 @@ body {
     text-decoration: underline;
 }
 
+.get-involved-section {
+    margin-top: 120px;
+}
+
 .get-involved-image {
-    max-width: 350px;
-    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 .break-mold {
