@@ -147,6 +147,11 @@ textarea::-webkit-scrollbar-thumb {
   border: 1px solid #f1f1f1;
 }
 
+.our-mission-div {
+    border-top: 4px solid #40a7b4;
+    border-bottom: 4px solid #40a7b4;
+}
+
 .mission-image-div {
     position: absolute;
     left: 0;
