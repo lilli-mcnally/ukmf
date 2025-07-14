@@ -2,11 +2,11 @@
 
 body {
     font-family: "Quicksand", sans-serif;
-    background-color: #F3EFF6;
+    background-color: #fff;
 }
 
 .font-p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .two-font-weight {
@@ -40,7 +40,7 @@ body {
 #address-link {
     text-decoration: none;
     color:#000;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #address-link:hover {
