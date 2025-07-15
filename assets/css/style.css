@@ -133,7 +133,6 @@ body {
     border-color: #585693;
 }
 
-
 textarea::-webkit-scrollbar {
   width: 8px;
 }
@@ -147,6 +146,16 @@ textarea::-webkit-scrollbar-thumb {
   background-color: #ccc;
   border-radius: 0.375rem;
   border: 1px solid #f1f1f1;
+}
+
+.head-support-logo {
+    max-height: 150px;
+    width: auto;
+}
+
+.support-logo {
+    max-height: 100px;
+    width: auto;
 }
 
 .our-mission-div {
