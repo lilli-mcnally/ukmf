@@ -31,10 +31,19 @@ body {
 }
 
 .event-date {
-    height: 80px;
-    background-color: #BAB9D4;
     position: absolute;
     left: 0;
+    height: 500px;
+    overflow: hidden;
+}
+
+#banner {
+    transform: scaleX(-1);
+}
+
+.date-text {
+    position: absolute;
+    margin-top: 50px;
 }
 
 #address-link {
@@ -48,7 +57,7 @@ body {
 }
 
 .get-involved-section {
-    margin-top: 120px;
+    margin-top: 600px;
 }
 
 .get-involved-image {
@@ -59,26 +68,9 @@ body {
 }
 
 .break-mold {
-    margin: 80px 0 50px 0;
-    font-size: 40px;
-}
-
-#break-text {
-    color: #585693;
+    font-size: 35px;
+    color: #84351f;
     font-weight: 700;
-    text-shadow: 0 0 2px #808080;
-}
-
-#build-text {
-    color: #40a7b4;
-    font-weight: 700;
-    text-shadow: 0 0 2px #808080;
-}
-
-#inspire-text {
-    color: #7995ae;
-    font-weight: 700;
-    text-shadow: 0 0 2px #808080;
 }
 
 .get-involved {
@@ -171,9 +163,13 @@ textarea::-webkit-scrollbar-thumb {
     overflow: hidden;
 }
 
-#our-mission-image {
+#our-mission-image,
+#banner {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+#our-mission-image {
     object-position: center 95%;
 }
