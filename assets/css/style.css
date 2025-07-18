@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
 
 body {
     font-family: "Quicksand", sans-serif;
@@ -55,17 +55,31 @@ body {
 .date-text {
     position: absolute;
     margin-top: 50px;
+    font-family: "Sofia Sans", sans-serif;
 }
 
 #address-link {
     text-decoration: none;
-    color:#000;
-    font-size: 16px;
+    color:#04207c;
 }
 
 #address-link:hover {
     text-decoration: underline;
+    color: #40a7b4;
 }
+
+#next-event-date {
+    font-size: 55px;
+    color: #04207c;
+}
+
+/* #build-future {
+    margin-left: 5vw;
+}
+
+#inspire-generation {
+    margin-left: 10vw;
+} */
 
 .get-involved-section {
     margin-top: 600px;
@@ -84,9 +98,7 @@ body {
 }
 
 .break-mold {
-    font-size: 35px;
     color: #84351f;
-    font-weight: 700;
 }
 
 .get-involved {
