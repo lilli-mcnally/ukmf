@@ -22,8 +22,19 @@ body {
 }
 
 #logo {
-    font-size: 50px;
-    margin: 40px 0;
+    background: url(/assets/images/ukmf-logo.webp) no-repeat center center;
+    background-size: contain;
+    height: 100px;
+    width: 160px;
+}
+
+.nav-link {
+    font-size: 22px;
+    color: #04207c;
+}
+
+.nav-link:hover {
+    color: #40a7b4;
 }
 
 .new-section {
