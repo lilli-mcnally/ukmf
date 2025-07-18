@@ -61,10 +61,10 @@ body {
 #address-link {
     text-decoration: none;
     color:#04207c;
+    font-size: 22px;
 }
 
 #address-link:hover {
-    text-decoration: underline;
     color: #40a7b4;
 }
 
@@ -73,13 +73,16 @@ body {
     color: #04207c;
 }
 
-/* #build-future {
-    margin-left: 5vw;
+.dark-blue-button {
+    background-color: #04207c;
+    color: #fff;
+    border-radius: 15px;
 }
 
-#inspire-generation {
-    margin-left: 10vw;
-} */
+.dark-blue-button:hover {
+    background-color: #40a7b4;
+    color: #fff;
+}
 
 .get-involved-section {
     margin-top: 600px;
