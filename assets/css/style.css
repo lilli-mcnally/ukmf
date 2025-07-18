@@ -95,6 +95,18 @@ body {
     border-radius: 15px;
 }
 
+.bg-dark-blue {
+    background-color: #04207c;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.bg-green {
+    background-color: #40a7b4;
+    color: #fff;
+    border-radius: 15px;
+}
+
 .venue-map {
     border: 0;
     border-radius: 10px;
