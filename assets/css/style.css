@@ -20,6 +20,9 @@ body {
 .green-text {
     color: #40a7b4;
 }
+.green-statement {
+    margin: 100px 0;
+}
 
 #logo {
     background: url(/assets/images/ukmf-logo.webp) no-repeat center center;
