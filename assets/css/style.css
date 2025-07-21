@@ -93,6 +93,7 @@ body {
     color: #04207c;
     border-radius: 15px;
     padding: 20px;
+    border-style: none;
 }
 
 .get-involved-image {
