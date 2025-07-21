@@ -85,26 +85,24 @@ body {
 }
 
 .get-involved-section {
-    margin-top: 600px;
+    margin-top: 550px;
+}
+
+.get-involved-div {
+    background-color: #b0cbe1;
+    color: #04207c;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 .get-involved-image {
-    height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 15px;
 }
 
-.bg-dark-blue {
-    background-color: #04207c;
-    color: #fff;
-    border-radius: 15px;
-}
-
-.bg-green {
-    background-color: #40a7b4;
-    color: #fff;
-    border-radius: 15px;
+.get-involved-list {
+    list-style-type: none;
 }
 
 .venue-map {
