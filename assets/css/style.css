@@ -5,7 +5,7 @@ body {
     background-color: #fff;
 }
 
-.font-p {
+p, a, li {
     font-size: 18px;
 }
 
@@ -118,10 +118,19 @@ body {
     color: #84351f;
 }
 
+.hand-icon {
+    color: #ffdc5d;
+}
+
 .get-involved {
     background-color: #68BDCA;
     border-radius: 30px;
     font-weight: 500;
+}
+
+.bg-dark-blue {
+    background-color: #04207c;
+    border-radius: 15px;
 }
 
 .form-background {
