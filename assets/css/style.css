@@ -35,9 +35,9 @@ footer p, footer a {
 }
 
 #logo {
-    background: url(/assets/images/ukmf-logo.webp) no-repeat center center;
+    background: url(/assets/images/logo-light.webp) no-repeat center center;
     background-size: contain;
-    height: 100px;
+    height: 128px;
     width: 160px;
 }
 
