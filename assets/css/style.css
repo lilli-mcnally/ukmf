@@ -10,6 +10,11 @@ p, a, li, label {
     color: #04207c;
 }
 
+footer p, footer a {
+    font-size: 16px;
+    color: #fff;
+}
+
 .two-font-weight {
     font-weight: 200;
 }
@@ -212,7 +217,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .contact-list:hover {
-    border-bottom: 2px solid #04207c
+    border-bottom: 2px solid #04207c;
 }
 
 #our-supporters {
@@ -236,6 +241,7 @@ textarea::-webkit-scrollbar-thumb {
     width: 100%;
     height: 400px;
     overflow: hidden;
+    margin-top: 50px;
 }
 
 #our-mission-image,
@@ -252,4 +258,28 @@ textarea::-webkit-scrollbar-thumb {
 .row {
     margin-left: 0;
     margin-right: 0;
+}
+
+footer {
+    background-color: #04207c;
+    height: 300px;
+    margin-top: 450px;
+    color: #fff;
+    font-family: "Sofia Sans", sans-serif;
+}
+
+.footer-socials {
+    font-size: 20px;
+}
+
+.footer-links {
+    text-decoration: none;
+}
+
+footer li {
+    margin-bottom: 1rem;
+}
+
+.footer-links:hover {
+    border-bottom: 2px solid #fff;
 }
