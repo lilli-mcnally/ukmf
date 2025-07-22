@@ -5,8 +5,9 @@ body {
     background-color: #fff;
 }
 
-p, a, li {
+p, a, li, label {
     font-size: 18px;
+    color: #04207c;
 }
 
 .two-font-weight {
@@ -24,6 +25,10 @@ p, a, li {
     margin: 100px 0;
 }
 
+.no-list-style {
+    list-style-type: none;
+}
+
 #logo {
     background: url(/assets/images/ukmf-logo.webp) no-repeat center center;
     background-size: contain;
@@ -32,6 +37,7 @@ p, a, li {
 }
 
 .nav-link {
+    text-decoration: none;
     font-size: 22px;
     color: #04207c;
 }
@@ -61,16 +67,6 @@ p, a, li {
     font-family: "Sofia Sans", sans-serif;
 }
 
-#address-link {
-    text-decoration: none;
-    color:#04207c;
-    font-size: 22px;
-}
-
-#address-link:hover {
-    color: #40a7b4;
-}
-
 #next-event-date {
     font-size: 55px;
     color: #04207c;
@@ -80,6 +76,7 @@ p, a, li {
     background-color: #04207c;
     color: #fff;
     border-radius: 15px;
+    font-size: 18px;
 }
 
 .dark-blue-button:hover {
@@ -133,6 +130,10 @@ p, a, li {
     border-radius: 15px;
 }
 
+.blue-text {
+    color: #04207c;
+}
+
 .form-background {
     background-color: rgb(255,255,255,0.5);
     padding: 25px 10px;
@@ -140,7 +141,8 @@ p, a, li {
 }
 
 .form-control:focus {
-    border-color: #68BDCA;
+    border-color: #04207c;
+    box-shadow: 0 0 0 .15rem rgba(4, 32, 124, 0.3)
 }
 
 .form-check-input {
@@ -148,8 +150,8 @@ p, a, li {
 }
 
 .form-check-input:checked {
-    background-color: #585693;
-    border-color: #585693;
+    background-color: #04207c;
+    border-color: #04207c;
 }
 
 .form-check-input[type=radio]{
@@ -157,7 +159,7 @@ p, a, li {
 }
 
 .form-check-input:focus {
-    border-color: #9592BF;
+    border-color: #04207c;
     box-shadow: none;
 }
 
@@ -203,6 +205,18 @@ textarea::-webkit-scrollbar-thumb {
     object-fit: cover;
     height: 100px;
     width: auto;
+}
+
+.contact-list {
+    text-decoration: none;
+}
+
+.contact-list:hover {
+    border-bottom: 2px solid #04207c
+}
+
+#our-supporters {
+    color:#04207c;
 }
 
 #headline-logo {

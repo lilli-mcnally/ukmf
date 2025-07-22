@@ -38,7 +38,7 @@
             <!-- Date and location -->
             <div class="d-flex flex-column justify-content-center date-text text-center">
                 <h1 id="next-event-date">Thursday 26th February 2026</h1>
-                <a href="https://maps.app.goo.gl/Rn7XX7R47FKxs5Pt8" target="_blank" id="address-link">at the NMC Venue, Birmingham Road, West Bromwich</a>
+                <a href="https://maps.app.goo.gl/Rn7XX7R47FKxs5Pt8" target="_blank" class="nav-link">at the NMC Venue, Birmingham Road, West Bromwich</a>
                 <!-- Break the Mold large text -->
                 <div class="break-mold">
                     <div class="my-4">
@@ -78,11 +78,11 @@
                     <div class="col-8 px-5 get-involved-text">
                         <p>The event is your opportunity to showcase your business and influence young minds - whether it's through interactive displays, showing off your products or wowing them with your plans for future innovation</p>
                         <ul class="get-involved-list">
-                            <li><i class="fa-solid fa-gear pe-1"></i> Promote your manufacturing business and showcase your skills</li>
-                            <li><i class="fa-solid fa-gear pe-1"></i> Discover opportunities to work with schools and secure your future talent</li>
-                            <li><i class="fa-solid fa-gear pe-1"></i> Entice young minds and fresh thinking into your business</li>
-                            <li><i class="fa-solid fa-gear pe-1"></i> Showcase innovative new technologies, products and services.</li>
-                            <li><i class="fa-solid fa-gear pe-1"></i> Help us to raise awareness of the incredible work done by West Midlands Manufacturers</li>
+                            <li class="mb-2"><i class="fa-solid fa-gear pe-1"></i> Promote your manufacturing business and showcase your skills</li>
+                            <li class="mb-2"><i class="fa-solid fa-gear pe-1"></i> Discover opportunities to work with schools and secure your future talent</li>
+                            <li class="mb-2"><i class="fa-solid fa-gear pe-1"></i> Entice young minds and fresh thinking into your business</li>
+                            <li class="mb-2"><i class="fa-solid fa-gear pe-1"></i> Showcase innovative new technologies, products and services.</li>
+                            <li class="mb-2"><i class="fa-solid fa-gear pe-1"></i> Help us to raise awareness of the incredible work done by West Midlands Manufacturers</li>
                         </ul>
                     </div>
                     <div class="col-4 p-0 d-flex">
@@ -125,29 +125,10 @@
                 </div>
             </div>
             <!-- Contact Details section -->
-            <div class="new-section container col-10 p-4 d-flex justify-content-between get-involved font-p" id="contact-us">
-                <div class="col-5">
-                    <!-- Left side of contact section -->
-                    <h3 class="eight-font-weight">Ready to Get Involved?</h3>
-                    <ul class="d-flex flex-column">
-                        <li>
-                            <a href=""><i class="fa-solid fa-phone"></i> 0123456789</a>
-                        </li>
-                        <li>
-                            <a href=""><i class="fa-solid fa-envelope"></i> admin@ukmanufacturingfestivals.co.uk</a>
-                        </li>
-                        <li>
-                            <a href=""><i class="fa-brands fa-linkedin-in"></i> UK Manufacturing Festivals</a>
-                        </li>
-                        <li>
-                            <a href=""><i class="fa-solid fa-location-dot"></i> NMC Venue, Birmingham Road, West Bromwich</a>
-                        </li>
-                    </ul>
-                    <iframe class="venue-map" width="500" height="350" loading="lazy" allowfullscreen
-                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJCcwWXVS9cEgRIQ_yc6EkdNo&key=AIzaSyBCL_U0oIyhpld3w5lm35Xj0sMwVzwBTW0"></iframe>
-                </div>
+            <div class="new-section container p-4 d-flex justify-content-between get-involved font-p" id="contact-us">
                 <!-- Right side of contact section with contact form -->
-                <div class="form-background col-6">
+                <div class="form-background col-5">                    
+                    <h3 class="eight-font-weight blue-text">Ready to Get Involved?</h3>
                     <form target="_blank" method="POST" action="https://formspree.io/f/xkgbeaev">
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
@@ -171,8 +152,31 @@
                             <label for="message" class="form-label">Message</label>
                             <textarea class="form-control" id="message" name="message"></textarea>
                         </div>
-                        <button type="submit" class="btn submit-btn">Submit</button>
+                        <button type="submit" class="btn dark-blue-button">Submit</button>
                     </form>
+                </div>
+                <!-- Left side of contact section -->
+                <div class="col-5">
+                    <h3 class="eight-font-weight blue-text">Contact Us</h3>
+                    <ul class="d-flex flex-column no-list-style">
+                        <li class="my-2">
+                            <a class="contact-list" href="tel:+447770842682"><i class="fa-solid fa-phone"></i> +447770842682</a>
+                        </li>
+                        <li class="my-2">
+                            <a class="contact-list" href="mailto:admin@ukmanufacturingfestivals.co.uk"><i class="fa-solid fa-envelope"></i> admin@ukmanufacturingfestivals.co.uk</a>
+                        </li>
+                        <li class="my-2">
+                            <a class="contact-list" href="https://www.linkedin.com/company/manufacturing-festivals/" target="_blank"><i class="fa-brands fa-linkedin-in"></i> UK Manufacturing Festivals</a>
+                        </li>
+                    </ul>
+                    <h4 class="eight-font-weight blue-text">Our Next Event</h4>
+                    <ul class="d-flex flex-column no-list-style">
+                        <li class="my-2">
+                            <a class="contact-list" href="https://maps.app.goo.gl/Rn7XX7R47FKxs5Pt8" target="_blank"><i class="fa-solid fa-location-dot"></i> NMC Venue, Birmingham Road, West Bromwich</a>
+                        </li>
+                    </ul>
+                    <iframe class="venue-map" width="500" height="350" loading="lazy" allowfullscreen
+                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJCcwWXVS9cEgRIQ_yc6EkdNo&key=AIzaSyBCL_U0oIyhpld3w5lm35Xj0sMwVzwBTW0"></iframe>
                 </div>
             </div>
             <!-- Our Supporters section -->
