@@ -119,7 +119,7 @@ p, a, li {
 }
 
 .hand-icon {
-    color: #ffdc5d;
+    color: #881606;
 }
 
 .get-involved {
@@ -194,14 +194,21 @@ textarea::-webkit-scrollbar-thumb {
   border: 1px solid #f1f1f1;
 }
 
-.head-support-logo {
-    max-height: 150px;
-    width: auto;
+.support-div {
+    justify-content: center;
+    display: flex;
 }
 
 .support-logo {
-    max-height: 100px;
+    object-fit: cover;
+    height: 100px;
     width: auto;
+}
+
+#headline-logo {
+    height: 150px;
+    width: auto;
+    margin: auto;
 }
 
 .our-mission-div {
@@ -226,4 +233,9 @@ textarea::-webkit-scrollbar-thumb {
 
 #our-mission-image {
     object-position: center 95%;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
