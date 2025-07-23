@@ -282,32 +282,62 @@ footer li {
 
 /* ----------------------------------------------------------------------------- Media Queries */
 
-/* ------------------------------------------ General Styling */
+@media (min-width:2000px) {
 
-/* ------------------------------------------ Navbar */
+    /* General Styling */
+    p, a, li, label, .dark-blue-button {
+        font-size: 20px;
+    }
 
-@media (min-width:1700px) {
-    .event-date {
-        max-width: 1700px;
-        margin: auto;
-        border-radius: 15px;
+    /* Navbar */
+    .nav-link {
+        font-size: 24px;
+    }
+
+    /* Banner */
+    #next-event-date {
+        font-size: 60px;
+    }
+
+    /* Footer */
+    footer p, footer a {
+        font-size: 18px;
+        color: #fff;
     }
 }
 
-/* ------------------------------------------ Event Banner */
+@media (min-width:1700px) {
 
-/* ------------------------------------------ Get Involved section */
+    /* Banner */
+    .event-date {
+        height: 600px;
+        background-position: center 30%;
+    }
 
-/* ------------------------------------------ Get Involved Cards */
+    /* Our Mission */
+    .mission-image-div{
+        height: 500px;
+    }
+}
 
-/* ------------------------------------------ Contact Us */
+/* General Styling */
 
-/* ----------------- Contact Us Form */
+/* Navbar */
 
-/* ----- Contact Us Form Message Box */
+/* Event Banner */
 
-/* ------------------------------------------ Our Supporters */
+/* Get Involved section */
 
-/* ------------------------------------------ Our Mission */
+/* Get Involved Cards */
 
-/* ------------------------------------------ Footer */
+/* Contact Us */
+
+/* Contact Us Form */
+
+/* Contact Us Form Message Box */
+
+/* Our Supporters */
+
+/* Our Mission */
+
+/* Footer */
