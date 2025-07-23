@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
 
+/* ------------------------------------------ General Styling */
+
 body {
     font-family: "Quicksand", sans-serif;
     background-color: #fff;
@@ -8,6 +10,10 @@ body {
 p, a, li, label {
     font-size: 18px;
     color: #04207c;
+}
+
+.new-section {
+    margin-top: 50px;
 }
 
 footer p, footer a {
@@ -36,6 +42,12 @@ footer p, footer a {
     list-style-type: none;
 }
 
+.no-decoration {
+    text-decoration: none;
+}
+
+/* ------------------------------------------ Navbar */
+
 #logo {
     background: url(/assets/images/logo-light.webp) no-repeat center center;
     background-size: contain;
@@ -44,7 +56,6 @@ footer p, footer a {
 }
 
 .nav-link {
-    text-decoration: none;
     font-size: 22px;
     color: #04207c;
 }
@@ -53,9 +64,7 @@ footer p, footer a {
     color: #40a7b4;
 }
 
-.new-section {
-    margin-top: 50px;
-}
+/* ------------------------------------------ Event Banner */
 
 .event-date {
     height: 500px;
@@ -70,9 +79,12 @@ footer p, footer a {
 }
 
 .date-text {
-    /* margin-right: 50px; */
     font-family: "Sofia Sans", sans-serif;
     transform: scaleX(-1);
+}
+
+.break-mold {
+    color: #84351f;
 }
 
 #next-event-date {
@@ -92,6 +104,8 @@ footer p, footer a {
     color: #fff;
 }
 
+/* ------------------------------------------ Get Involved section */
+
 .get-involved-div {
     background-color: #b0cbe1;
     color: #04207c;
@@ -106,27 +120,10 @@ footer p, footer a {
     border-radius: 15px;
 }
 
-.get-involved-list {
-    list-style-type: none;
-}
-
-.venue-map {
-    border: 0;
-    border-radius: 10px;
-}
-
-.break-mold {
-    color: #84351f;
-}
+/* ------------------------------------------ Get Involved Cards */
 
 .hand-icon {
     color: #881606;
-}
-
-.get-involved {
-    background-color: #68BDCA;
-    border-radius: 30px;
-    font-weight: 500;
 }
 
 .bg-dark-blue {
@@ -137,6 +134,25 @@ footer p, footer a {
 .blue-text {
     color: #04207c;
 }
+
+/* ------------------------------------------ Contact Us */
+
+#contact-us {
+    background-color: #68BDCA;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.venue-map {
+    border: 0;
+    border-radius: 10px;
+}
+
+.contact-list:hover {
+    border-bottom: 2px solid #04207c;
+}
+
+/* ----------------- Contact Us Form */
 
 .form-background {
     background-color: rgb(255,255,255,0.5);
@@ -167,12 +183,6 @@ footer p, footer a {
     box-shadow: none;
 }
 
-#message {
-    height: 130px;
-    resize: none;
-    overflow: auto;
-}
-
 .submit-btn {
     background-color: #F3EFF6;
     border-width: 1px;
@@ -183,6 +193,14 @@ footer p, footer a {
     border-width: 1px;
     background-color: #F3EFF6;
     border-color: #585693;
+}
+
+/* ----- Contact Us Form Message Box */
+
+#message {
+    height: 130px;
+    resize: none;
+    overflow: auto;
 }
 
 textarea::-webkit-scrollbar {
@@ -200,6 +218,8 @@ textarea::-webkit-scrollbar-thumb {
   border: 1px solid #f1f1f1;
 }
 
+/* ------------------------------------------ Our Supporters */
+
 .support-div {
     justify-content: center;
     display: flex;
@@ -211,14 +231,6 @@ textarea::-webkit-scrollbar-thumb {
     width: auto;
 }
 
-.contact-list {
-    text-decoration: none;
-}
-
-.contact-list:hover {
-    border-bottom: 2px solid #04207c;
-}
-
 #our-supporters {
     color:#04207c;
 }
@@ -228,6 +240,8 @@ textarea::-webkit-scrollbar-thumb {
     width: auto;
     margin: auto;
 }
+
+/* ------------------------------------------ Our Mission */
 
 .our-mission-div {
     border-top: 4px solid #40a7b4;
@@ -244,21 +258,7 @@ textarea::-webkit-scrollbar-thumb {
     height: 400px;
 }
 
-#our-mission-image,
-#banner {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-#our-mission-image {
-    object-position: center 95%;
-}
-
-.row {
-    margin-left: 0;
-    margin-right: 0;
-}
+/* ------------------------------------------ Footer */
 
 footer {
     background-color: #04207c;
@@ -271,10 +271,6 @@ footer {
     font-size: 20px;
 }
 
-.footer-links {
-    text-decoration: none;
-}
-
 footer li {
     margin-bottom: 1rem;
 }
@@ -282,3 +278,36 @@ footer li {
 .footer-links:hover {
     border-bottom: 2px solid #fff;
 }
+
+
+/* ----------------------------------------------------------------------------- Media Queries */
+
+/* ------------------------------------------ General Styling */
+
+/* ------------------------------------------ Navbar */
+
+@media (min-width:1700px) {
+    .event-date {
+        max-width: 1700px;
+        margin: auto;
+        border-radius: 15px;
+    }
+}
+
+/* ------------------------------------------ Event Banner */
+
+/* ------------------------------------------ Get Involved section */
+
+/* ------------------------------------------ Get Involved Cards */
+
+/* ------------------------------------------ Contact Us */
+
+/* ----------------- Contact Us Form */
+
+/* ----- Contact Us Form Message Box */
+
+/* ------------------------------------------ Our Supporters */
+
+/* ------------------------------------------ Our Mission */
+
+/* ------------------------------------------ Footer */
