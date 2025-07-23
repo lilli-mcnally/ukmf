@@ -11,8 +11,8 @@
     <title>West Midlands Manufacturing Festival</title>
 </head>
     <body>
-        <div class="container">
-            <header>
+        <div>
+            <header class="container">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                         <!-- Logo -->
@@ -32,33 +32,32 @@
                 </nav>
             </header>
             <!-- Date banner -->
-            <div class="col-12 event-date">
-                <img src="/assets/images/banner.webp" alt="Child with pilot wings made of cardboard" id="banner">
+            <div class="col-12 event-date d-flex flex-row-reverse" title="Child with pilot wings made of cardboard" >
+                <div class="d-flex flex-column justify-content-center date-text text-center">
+                    <h1 id="next-event-date">Thursday 26th February 2026</h1>
+                    <a href="https://maps.app.goo.gl/Rn7XX7R47FKxs5Pt8" target="_blank" class="nav-link">at the NMC Venue, Birmingham Road, West Bromwich</a>
+                    <!-- Break the Mold large text -->
+                    <div class="break-mold">
+                        <div class="my-4">
+                            <h2>Break the mold</h2>
+                        </div>
+                        <div class="my-4" id="build-future">
+                            <h2>Build the future</h2>
+                        </div>
+                        <div class="my-4" id="inspire-generation">
+                            <h2>Inspire the next generation</h2>
+                        </div>
+                    </div>
+                    <!-- Sponsor and Exhibitor buttons -->
+                    <div class="d-flex justify-content-center">
+                        <a href="#contact-us" type="button" class="me-3 btn font-p dark-blue-button">Become a Sponsor</a>
+                        <a href="#contact-us" type="button" class="ms-3 btn font-p dark-blue-button">Keen to exhibit</a>
+                    </div>
+                </div> 
             </div>
             <!-- Date and location -->
-            <div class="d-flex flex-column justify-content-center date-text text-center">
-                <h1 id="next-event-date">Thursday 26th February 2026</h1>
-                <a href="https://maps.app.goo.gl/Rn7XX7R47FKxs5Pt8" target="_blank" class="nav-link">at the NMC Venue, Birmingham Road, West Bromwich</a>
-                <!-- Break the Mold large text -->
-                <div class="break-mold">
-                    <div class="my-4">
-                        <h2>Break the mold</h2>
-                    </div>
-                    <div class="my-4" id="build-future">
-                        <h2>Build the future</h2>
-                    </div>
-                    <div class="my-4" id="inspire-generation">
-                        <h2>Inspire the next generation</h2>
-                    </div>
-                </div>
-                <!-- Sponsor and Exhibitor buttons -->
-                <div class="d-flex justify-content-center">
-                    <a href="#contact-us" type="button" class="me-3 btn font-p dark-blue-button">Become a Sponsor</a>
-                    <a href="#contact-us" type="button" class="ms-3 btn font-p dark-blue-button">Keen to exhibit</a>
-                </div>
-            </div> 
             <!-- Why get involved section -->
-            <div class="get-involved-section two-font-weight font-p" id="get-involved">
+            <div class="container get-involved-section two-font-weight font-p" id="get-involved">
                 <div class="d-flex my-4 get-involved-div">
                     <div class="col-4 p-0 d-flex">
                         <img class="get-involved-image" src="assets/images/get-involved-one.webp" alt="Experienced mechanical engineer teaching apprentice">
@@ -91,7 +90,7 @@
                 </div>
             </div>
             <!-- Get involved card section -->
-            <div class="new-section d-flex justify-content-evenly bg-dark-blue py-5">
+            <div class="container new-section d-flex justify-content-evenly bg-dark-blue py-5">
                 <div class="card col-3 get-involved-div">
                     <h3 class="card-title text-center">You can't be what you can't see</h3>
                     <img src="/assets/images/get-involved-three.webp" class="card-img-top" alt="Two students working on an engineering project">
@@ -118,14 +117,14 @@
                 </div>
             </div>
             <!-- Next steps -->
-            <div class="row justify-content-center text-center green-statement">
+            <div class="container row justify-content-center text-center green-statement">
                 <div class="col-10 green-text">
                     <h2 class="eight-font-weight">Next Steps</h2>
                     <h5 class="eight-font-weight">If you want to secure the future of your business - and continue the heritage of manufacturing in the West Midlands - this is the place to do it.</h5>
                 </div>
             </div>
             <!-- Contact Details section -->
-            <div class="new-section container p-4 d-flex justify-content-between get-involved font-p" id="contact-us">
+            <div class="container new-section container p-4 d-flex justify-content-between get-involved font-p" id="contact-us">
                 <!-- Left side of contact section with contact form -->
                 <div class="form-background col-5">                    
                     <h3 class="eight-font-weight blue-text">Ready to Get Involved?</h3>
@@ -180,21 +179,21 @@
                 </div>
             </div>
             <!-- Our Supporters section -->
-            <div class="new-section" id="our-supporters">
+            <div class="container new-section" id="our-supporters">
                 <h3 class="text-center eight-font-weight">Our Supporters</h3>
             </div>
-            <div class="new-section d-flex justify-content-evenly">
+            <div class="container new-section d-flex justify-content-evenly">
                 <img src="/assets/images/logo-ei.webp" alt="Engineers Insight logo" class="support-logo">
                 <img src="assets/images/logo-conex.webp" alt="Conex logo" class="support-logo">
                 <img src="assets/images/logo-mm.webp" alt="Machinery and Manufacturing logo" class="support-logo">
             </div>
             <!-- Headline supporter -->
-             <div class="new-section row">
+             <div class="container new-section row">
                 <h5 class="text-center green-text eight-font-weight">Headline Supporter</h5>
                 <img src="/assets/images/logo-cbm.webp" alt="Confederation of British Metalforming logo" class="support-logo" id="headline-logo">
             </div>
              <!-- Our Mission Section -->
-             <div class="d-flex justify-content-center p-4" id="our-mission">
+             <div class="container d-flex justify-content-center p-4" id="our-mission">
                 <div class="col-8 new-section font-p our-mission-div p-4">
                     <h3 class="text-center green-text eight-font-weight">Our Mission</h3>
                     <p>To make careers in engineering and manufacturing more visible, accessible, and exciting to young people—especially those in our local communities.</p>
