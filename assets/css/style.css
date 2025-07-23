@@ -26,8 +26,10 @@ footer p, footer a {
 .green-text {
     color: #40a7b4;
 }
+
 .green-statement {
-    margin: 100px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .no-list-style {
@@ -64,10 +66,11 @@ footer p, footer a {
     background-size: cover;
     background-position: center;
     transform: scaleX(-1);
+    user-select: none;
 }
 
 .date-text {
-    margin-right: 50px;
+    /* margin-right: 50px; */
     font-family: "Sofia Sans", sans-serif;
     transform: scaleX(-1);
 }
