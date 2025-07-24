@@ -117,10 +117,14 @@ footer p, footer a {
     color: #04207c;
     border-radius: 15px;
     padding: 20px;
-    border-style: none;
 }
 
 /* ------------------------------------------ Get Involved Cards */
+
+.get-involved-card {
+    border: 10px solid #04207c;
+    border-radius: 25px;
+}
 
 .hand-icon {
     color: #881606;
@@ -128,7 +132,6 @@ footer p, footer a {
 
 .bg-dark-blue {
     background-color: #04207c;
-    border-radius: 15px;
 }
 
 .blue-text {
@@ -317,6 +320,14 @@ footer li {
     /* Our Mission */
     .mission-image-div{
         height: 500px;
+    }
+}
+
+@media (min-width:992px) {
+    
+    /* General Styling */
+    .align-items-none {
+        align-items: none;
     }
 }
 
