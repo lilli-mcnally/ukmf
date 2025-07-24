@@ -46,6 +46,7 @@ footer p, footer a {
 
 .no-list-style {
     list-style-type: none;
+    padding: 0;
 }
 
 .no-decoration {
@@ -144,6 +145,7 @@ footer p, footer a {
     background-color: #68BDCA;
     border-radius: 30px;
     font-weight: 500;
+    height: 1300px;
 }
 
 .venue-map {
@@ -324,10 +326,14 @@ footer li {
 }
 
 @media (min-width:992px) {
-    
+
     /* General Styling */
     .align-items-none {
         align-items: none;
+    }
+
+    #contact-us {
+        height: 670px;
     }
 }
 
