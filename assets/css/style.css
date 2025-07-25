@@ -229,12 +229,6 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 /* ------------------------------------------ Our Supporters */
-
-.support-div {
-    justify-content: center;
-    display: flex;
-}
-
 .support-logo {
     object-fit: cover;
     width: 200px;
