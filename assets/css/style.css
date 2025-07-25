@@ -167,7 +167,7 @@ footer p, footer a {
 .form-background {
     background-color: rgb(255,255,255,0.5);
     padding: 25px 10px;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 .form-control:focus {
@@ -286,7 +286,7 @@ footer li {
 
 /* ----------------------------------------------------------------------------- Media Queries */
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
 
     /* General Styling */
     p, a, li, label, .dark-blue-button {
@@ -297,9 +297,13 @@ footer li {
     #next-event-date {
         font-size: 45px;
     }
+
+    .form-background {
+        border-radius: 15px;
+    }
 }
 
-@media (min-width: 700px){
+@media (min-width: 768px){
 
     /* Event Banner */
     .event-date {
