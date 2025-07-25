@@ -237,8 +237,8 @@ textarea::-webkit-scrollbar-thumb {
 
 .support-logo {
     object-fit: cover;
-    height: 100px;
-    width: auto;
+    width: 200px;
+    height: auto;
 }
 
 #our-supporters {
@@ -292,6 +292,83 @@ footer li {
 
 /* ----------------------------------------------------------------------------- Media Queries */
 
+@media (min-width: 500px) {
+
+    /* General Styling */
+    p, a, li, label, .dark-blue-button {
+        font-size: 18px;
+    }
+
+    /* Event Banner */
+    #next-event-date {
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 700px){
+
+    /* Event Banner */
+    .event-date {
+        background-position: center;
+    }
+
+    .transparent-overlay {
+        background: rgb(255,255,255,0.5);
+    }
+}
+
+@media (min-width:992px) {
+
+    /* General Styling */
+    .align-items-none {
+        align-items: none;
+    }
+
+    /* Event Banner */
+    .transparent-overlay {
+        background: none;
+        height: 100%;
+    }
+
+    /* Contact Us */
+    #contact-us {
+        height: 670px;
+    }
+
+    .support-logo {
+        object-fit: cover;
+        height: 100px;
+        width: auto;
+    }
+}
+
+@media (min-width:1200px) {
+
+    /* Navbar */
+    .nav-link {
+        font-size: 22px;
+    }
+
+    /* Event Banner */
+    #next-event-date {
+        font-size: 55px;
+    }
+}
+
+@media (min-width:1700px) {
+
+    /* Banner */
+    .event-date {
+        height: 600px;
+        background-position: center 30%;
+    }
+
+    /* Our Mission */
+    .mission-image-div{
+        height: 500px;
+    }
+}
+
 @media (min-width:2000px) {
 
     /* General Styling */
@@ -313,70 +390,6 @@ footer li {
     footer p, footer a {
         font-size: 18px;
         color: #fff;
-    }
-}
-
-@media (min-width:1700px) {
-
-    /* Banner */
-    .event-date {
-        height: 600px;
-        background-position: center 30%;
-    }
-
-    /* Our Mission */
-    .mission-image-div{
-        height: 500px;
-    }
-}
-
-@media (min-width:1200px) {
-
-    #next-event-date {
-        font-size: 55px;
-    }
-
-    .nav-link {
-        font-size: 22px;
-    }
-}
-
-@media (min-width:992px) {
-
-    /* General Styling */
-    .align-items-none {
-        align-items: none;
-    }
-
-    .transparent-overlay {
-        background: rgb(255,255,255,0);
-        height: 100%;
-    }
-
-    #contact-us {
-        height: 670px;
-    }
-}
-
-@media (min-width: 700px){
-
-    .event-date {
-        background-position: center;
-    }
-
-    .transparent-overlay {
-        background: rgb(255,255,255,0.5);
-    }
-}
-
-@media (min-width: 500px) {
-
-    p, a, li, label, .dark-blue-button {
-        font-size: 18px;
-    }
-
-    #next-event-date {
-        font-size: 45px;
     }
 }
 
