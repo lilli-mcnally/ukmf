@@ -8,7 +8,7 @@ body {
 }
 
 p, a, li, label {
-    font-size: 18px;
+    font-size: 16px;
     color: #04207c;
 }
 
@@ -63,7 +63,7 @@ footer p, footer a {
 }
 
 .nav-link {
-    font-size: 22px;
+    font-size: 20px;
     color: #04207c;
 }
 
@@ -80,9 +80,14 @@ footer p, footer a {
     background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 20% 50%;
     transform: scaleX(-1);
     user-select: none;
+}
+
+.transparent-overlay {
+    background: rgb(255,255,255,0.7);
+    height: 100%;
 }
 
 .date-text {
@@ -95,7 +100,7 @@ footer p, footer a {
 }
 
 #next-event-date {
-    font-size: 55px;
+    font-size: 40px;
     color: #04207c;
 }
 
@@ -103,7 +108,7 @@ footer p, footer a {
     background-color: #04207c;
     color: #fff;
     border-radius: 15px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .dark-blue-button:hover {
@@ -325,6 +330,17 @@ footer li {
     }
 }
 
+@media (min-width:1200px) {
+
+    #next-event-date {
+        font-size: 55px;
+    }
+
+    .nav-link {
+        font-size: 22px;
+    }
+}
+
 @media (min-width:992px) {
 
     /* General Styling */
@@ -332,8 +348,35 @@ footer li {
         align-items: none;
     }
 
+    .transparent-overlay {
+        background: rgb(255,255,255,0);
+        height: 100%;
+    }
+
     #contact-us {
         height: 670px;
+    }
+}
+
+@media (min-width: 700px){
+
+    .event-date {
+        background-position: center;
+    }
+
+    .transparent-overlay {
+        background: rgb(255,255,255,0.5);
+    }
+}
+
+@media (min-width: 500px) {
+
+    p, a, li, label, .dark-blue-button {
+        font-size: 18px;
+    }
+
+    #next-event-date {
+        font-size: 45px;
     }
 }
 
