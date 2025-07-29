@@ -62,10 +62,6 @@ footer p, footer a {
     width: 160px;
 }
 
-.navbar-nav a {
-    border-bottom: 2px solid #04207c;
-}
-
 .nav-link {
     font-size: 20px;
     color: #04207c;
@@ -77,6 +73,22 @@ footer p, footer a {
 
 .fa-bars {
     font-size: 25px;
+}
+
+.bars-toggler {
+    background: none;
+    border: 1px solid #808080;
+    border-radius: 2px;
+}
+
+.bars-toggler:hover {
+    background-color: #b0cbe1;
+    border: 1px solid #b0cbe1;
+}
+
+.bars-toggler:focus {
+    border: 1px solid #808080;
+    box-shadow: none;
 }
 
 /* ------------------------------------------ Event Banner */
