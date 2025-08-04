@@ -9,7 +9,7 @@ body {
 
 p, a, li, label {
     font-size: 16px;
-    color: #04207c;
+    color: #0c3470;
 }
 
 .new-section {
@@ -36,7 +36,11 @@ footer p, footer a {
 }
 
 .green-text {
-    color: #40a7b4;
+    color: #0cc0df;
+}
+
+.blue-text {
+    color: #0c3470;
 }
 
 .green-statement {
@@ -56,7 +60,7 @@ footer p, footer a {
 /* ------------------------------------------ Navbar */
 
 #logo {
-    background: url(/assets/images/logo-light.webp) no-repeat center center;
+    background: url(/assets/images/test.png) no-repeat center center;
     background-size: contain;
     height: 128px;
     width: 160px;
@@ -64,11 +68,11 @@ footer p, footer a {
 
 .nav-link {
     font-size: 20px;
-    color: #04207c;
+    color: #0c3470;
 }
 
 .nav-link:hover {
-    color: #40a7b4;
+    color: #0cc0df;
 }
 
 .fa-bars {
@@ -82,8 +86,8 @@ footer p, footer a {
 }
 
 .bars-toggler:hover {
-    background-color: #b0cbe1;
-    border: 1px solid #b0cbe1;
+    background-color: #0cc0df;
+    border: 1px solid #0cc0df;
 }
 
 .bars-toggler:focus {
@@ -116,31 +120,32 @@ footer p, footer a {
 }
 
 .break-mold {
-    color: #84351f;
+    color: #0c3470;
 }
 
 #next-event-date {
     font-size: 40px;
-    color: #04207c;
+    color: #0c3470;
 }
 
 .dark-blue-button {
-    background-color: #04207c;
+    background-color: #0c3470;
     color: #fff;
     border-radius: 15px;
     font-size: 16px;
 }
 
 .dark-blue-button:hover {
-    background-color: #40a7b4;
+    background-color: #0cc0df;
     color: #fff;
 }
 
 /* ------------------------------------------ Get Involved section */
 
 .get-involved-div {
-    background-color: #b0cbe1;
-    color: #04207c;
+    border: 6px solid #0cc0df;
+    background-color: #EDFBFD;
+    color: #0c3470;
     border-radius: 15px;
     padding: 20px;
 }
@@ -148,26 +153,26 @@ footer p, footer a {
 /* ------------------------------------------ Get Involved Cards */
 
 .get-involved-card {
-    border: 10px solid #04207c;
+    border: 10px solid #0c3470;
     border-radius: 25px;
 }
 
 .hand-icon {
-    color: #881606;
+    color: #fb8500;
 }
 
 .bg-dark-blue {
-    background-color: #04207c;
+    background-color: #0c3470;
 }
 
 .blue-text {
-    color: #04207c;
+    color: #0c3470;
 }
 
 /* ------------------------------------------ Contact Us */
 
 #contact-us {
-    background-color: #68BDCA;
+    background-color: #0cc0df;
     border-radius: 30px;
     font-weight: 500;
     height: 1300px;
@@ -179,7 +184,7 @@ footer p, footer a {
 }
 
 .contact-list:hover {
-    border-bottom: 2px solid #04207c;
+    border-bottom: 2px solid #0c3470;
 }
 
 /* ----------------- Contact Us Form */
@@ -191,7 +196,7 @@ footer p, footer a {
 }
 
 .form-control:focus {
-    border-color: #04207c;
+    border-color: #0c3470;
     box-shadow: 0 0 0 .15rem rgba(4, 32, 124, 0.3)
 }
 
@@ -200,8 +205,8 @@ footer p, footer a {
 }
 
 .form-check-input:checked {
-    background-color: #04207c;
-    border-color: #04207c;
+    background-color: #0c3470;
+    border-color: #0c3470;
 }
 
 .form-check-input[type=radio]{
@@ -209,7 +214,7 @@ footer p, footer a {
 }
 
 .form-check-input:focus {
-    border-color: #04207c;
+    border-color: #0c3470;
     box-shadow: none;
 }
 
@@ -256,7 +261,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 #our-supporters {
-    color:#04207c;
+    color:#0c3470;
 }
 
 #headline-logo {
@@ -268,8 +273,8 @@ textarea::-webkit-scrollbar-thumb {
 /* ------------------------------------------ Our Mission */
 
 .our-mission-div {
-    border-top: 4px solid #40a7b4;
-    border-bottom: 4px solid #40a7b4;
+    border-top: 4px solid #0cc0df;
+    border-bottom: 4px solid #0cc0df;
 }
 
 .mission-image-div {
@@ -285,7 +290,7 @@ textarea::-webkit-scrollbar-thumb {
 /* ------------------------------------------ Footer */
 
 footer {
-    background-color: #04207c;
+    background-color: #0c3470;
     color: #fff;
     font-family: "Sofia Sans", sans-serif;
 }
