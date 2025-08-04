@@ -60,7 +60,7 @@ footer p, footer a {
 /* ------------------------------------------ Navbar */
 
 #logo {
-    background: url(../images/test.png) no-repeat center center;
+    background: url(/ukmf/assets/images/test.png) no-repeat center center;
     background-size: contain;
     height: 128px;
     width: 160px;
@@ -100,7 +100,7 @@ footer p, footer a {
 .event-date {
     height: 500px;
     overflow: hidden;
-    background-image: url('../images/banner.webp');
+    background-image: url('/ukmf/assets/images/banner.webp');
     background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
@@ -278,7 +278,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .mission-image-div {
-    background-image: url('../images/our-mission.webp');
+    background-image: url('/ukmf/assets/images/our-mission.webp');
     background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
