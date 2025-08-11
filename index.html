@@ -136,7 +136,7 @@
                 <!-- Left side of contact section with contact form -->
                 <div class="form-background mb-4 mb-lg-0 col-12 col-lg-5 d-flex flex-column">                    
                     <h3 class="eight-font-weight blue-text">Ready to Get Involved?</h3>
-                    <form target="_blank" method="POST" action="https://formspree.io/f/xkgbeaev">
+                    <form method="POST" action="https://formspree.io/f/xkgbeaev">
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
                             <input type="text" class="form-control" id="name" name="name" required>
@@ -243,5 +243,12 @@
                 </div>
             </div>
         </footer>
+        <script>
+            window.onbeforeunload = () => {
+                for(const form of document.getElementsByTagName('form')) {
+                    form.reset();
+                }
+            }
+        </script>
     </body>
 </html>
