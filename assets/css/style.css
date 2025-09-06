@@ -98,7 +98,7 @@ footer p, footer a {
 /* ------------------------------------------ Event Banner */
 
 .event-date {
-    height: 500px;
+    height: 550px;
     overflow: hidden;
     background-image: url('../images/banner.webp');
     background-size: contain;
@@ -337,6 +337,7 @@ footer li {
     /* Event Banner */
     .event-date {
         background-position: center;
+        height: 500px;
     }
 
     .transparent-overlay {
