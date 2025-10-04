@@ -22,7 +22,7 @@ p, a, li, label {
     border-radius: 15px;
 }
 
-footer p, footer a {
+footer p, footer a, footer li {
     font-size: 16px;
     color: #fff;
 }
@@ -253,6 +253,21 @@ textarea::-webkit-scrollbar-thumb {
   border: 1px solid #f1f1f1;
 }
 
+/* ------------------------------------------ News */
+
+.small-date {
+    font-size: 14px;
+}
+
+.news-div {
+    height: 600px;
+    overflow: scroll;
+}
+
+.news-title {
+    font-size: 24px;
+}
+
 /* ------------------------------------------ Our Supporters */
 .support-logo {
     object-fit: cover;
@@ -326,6 +341,15 @@ footer li {
         border-radius: 15px;
     }
 
+    /* News */
+    .small-date {
+        font-size: 16px;
+    }
+
+    .news-title {
+        font-size: 26px;
+    }
+
     /* Our Mission */
     .mission-image-div{
         height: 200px;
@@ -397,6 +421,12 @@ footer li {
     #next-event-date {
         font-size: 55px;
     }
+
+    /* News */
+    .news-title {
+        font-size: 30px;
+    }
+
 }
 
 @media (min-width:1700px) {
@@ -430,8 +460,14 @@ footer li {
         font-size: 60px;
     }
 
+    /* News */
+    .small-date {
+        font-size: 18px;
+    }
+
+
     /* Footer */
-    footer p, footer a {
+    footer p, footer a, footer li {
         font-size: 18px;
         color: #fff;
     }
