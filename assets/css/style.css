@@ -180,7 +180,7 @@ footer p, footer a, footer li {
 
 .venue-map {
     border: 0;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .contact-list:hover {
@@ -275,6 +275,11 @@ textarea::-webkit-scrollbar-thumb {
     height: auto;
 }
 
+#media-logo {
+    height: 26px;
+    width: auto;
+}
+
 #our-supporters {
     color:#0c3470;
 }
@@ -341,9 +346,20 @@ footer li {
         border-radius: 15px;
     }
 
+    /* Contact Us Form */
+
+    .venue-map {
+        border-radius: 10px;
+    }
+
     /* News */
     .small-date {
         font-size: 16px;
+    }
+
+    #media-logo {
+        height: 35px;
+        width: auto;
     }
 
     .news-title {
@@ -366,6 +382,12 @@ footer li {
 
     .transparent-overlay {
         background: rgb(255,255,255,0.5);
+    }
+
+    /* News */
+    #media-logo {
+        height: 40px;
+        width: auto;
     }
 
     /* Our Mission */
@@ -395,7 +417,7 @@ footer li {
     /* Contact Us */
     #contact-us {
         height: 670px;
-    }
+    } 
 
     /* Our Supporters */
     .support-logo {
@@ -422,10 +444,10 @@ footer li {
         font-size: 55px;
     }
 
-    /* News */
-    .news-title {
-        font-size: 30px;
-    }
+    #media-logo {
+        height: 50px;
+        width: auto;
+    }  
 
 }
 
