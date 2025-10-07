@@ -43,6 +43,10 @@ footer p, footer a, footer li {
     color: #0c3470;
 }
 
+.white-text {
+    color: #fff;
+}
+
 .green-statement {
     margin-top: 100px;
     margin-bottom: 100px;
