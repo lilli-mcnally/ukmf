@@ -61,6 +61,10 @@ footer p, footer a, footer li {
     text-decoration: none;
 }
 
+.blue-line {
+    border-bottom: 4px solid #0c3470;
+}
+
 /* ------------------------------------------ Navbar */
 
 #logo {
@@ -273,9 +277,22 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 /* ------------------------------------------ Our Supporters */
-.support-logo {
+
+.sponsor-silver {
+    object-fit: cover;
+    width: 300px;
+    height: auto;
+}
+
+.sponsor-bronze {
     object-fit: cover;
     width: 200px;
+    height: auto;
+}
+
+.support-logo {
+    object-fit: cover;
+    width: 150px;
     height: auto;
 }
 
@@ -424,9 +441,21 @@ footer li {
     } 
 
     /* Our Supporters */
+    .sponsor-silver {
+        object-fit: cover;
+        width: 200px;
+        height: auto;
+    }
+
+    .sponsor-bronze {
+        object-fit: cover;
+        width: 125px;
+        height: auto;
+    }
+
     .support-logo {
         object-fit: cover;
-        height: 100px;
+        height: 75px;
         width: auto;
     }
 
