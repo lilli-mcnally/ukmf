@@ -435,6 +435,10 @@ footer li {
         height: 100%;
     }
 
+    #media-logo-div {
+        height: 142px;
+    }
+
     /* Contact Us */
     #contact-us {
         height: 670px;
@@ -480,8 +484,7 @@ footer li {
     #media-logo {
         height: 50px;
         width: auto;
-    }  
-
+    }
 }
 
 @media (min-width:1700px) {
