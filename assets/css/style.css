@@ -435,10 +435,6 @@ footer li {
         height: 100%;
     }
 
-    #media-logo-div {
-        height: 142px;
-    }
-
     /* Contact Us */
     #contact-us {
         height: 670px;
@@ -461,6 +457,14 @@ footer li {
         object-fit: cover;
         height: 75px;
         width: auto;
+    }
+
+    #media-logo-div {
+        height: 142px;
+    }
+
+    #crowe-logo {
+        height: 50px;
     }
 
     /* Our Mission */
