@@ -79,6 +79,11 @@ footer p, footer a, footer li {
     color: #0c3470;
 }
 
+.tbc-p {
+    font-size: 20px;
+    color: #0c3470;
+}
+
 .nav-link:hover {
     color: #0cc0df;
 }
@@ -476,7 +481,8 @@ footer li {
 @media (min-width:1200px) {
 
     /* Navbar */
-    .nav-link {
+    .nav-link,
+    .tbc-p {
         font-size: 22px;
     }
 
@@ -513,7 +519,8 @@ footer li {
     }
 
     /* Navbar */
-    .nav-link {
+    .nav-link,
+    .tbc-p {
         font-size: 24px;
     }
 
