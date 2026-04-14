@@ -34,34 +34,14 @@
             </nav>
         </header>
         <!-- Date banner -->
-        <div class="col-12 event-date" title="Child with pilot wings made of cardboard">
-            <div class="transparent-overlay">
-                <div class="container d-flex flex-row-reverse justify-content-center justify-content-lg-start h-100">
-                    <div class="d-flex flex-column justify-content-center date-text text-center">
-                        <!-- Date and location -->
-                        <h2 class="break-mold">West Midlands Manufacturing Festival 2027</h2>
-                        <p class="tbc-p">Date and Location TBC</p>
-                        <!-- Break the Mold large text -->
-                        <div class="break-mold my-4 my-sm-0">
-                            <div class="my-2 my-sm-4">
-                                <h2>Break the mold</h2>
-                            </div>
-                            <div class="my-2 my-sm-4" id="build-future">
-                                <h2>Build the future</h2>
-                            </div>
-                            <div class="my-2 my-sm-4" id="inspire-generation">
-                                <h2>Inspire the next generation</h2>
-                            </div>
-                        </div>
-                        <!-- Sponsor and Exhibitor buttons -->
-                        <div class="d-flex flex-column flex-md-row align-items-center justify-content-center col-12">
-                            <a href="#contact-us" type="button" class="btn font-p dark-blue-button my-3 mx-sm-4 col-7 col-sm-5 col-lg-4">Become a Sponsor</a>
-                            <a href="#contact-us" type="button" class="btn font-p dark-blue-button my-3 mx-sm-4 col-7 col-sm-5 col-lg-4">Keen to exhibit</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="video-container">
+            <video autoplay muted loop class="banner-video">
+                <source src="/assets/video/showcase.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
         </div>
+
         <!-- Why get involved section -->
         <div class="container new-section two-font-weight font-p" id="get-involved">
             <div class="d-flex get-involved-div flex-column-reverse align-items-center align-items-lg-stretch flex-lg-row">
@@ -327,6 +307,16 @@
                     </ul>
                 </div>
             </div>
+        </footer>
+        <script>
+            window.onbeforeunload = () => {
+                for(const form of document.getElementsByTagName('form')) {
+                    form.reset();
+                }
+            }
+        </script>
+    </body>
+    </html>      </div>
         </footer>
         <script>
             window.onbeforeunload = () => {

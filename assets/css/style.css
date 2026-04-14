@@ -43,6 +43,18 @@ footer p, footer a, footer li {
     color: #0c3470;
 }
 
+.dark-blue-button {
+    background-color: #0c3470;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.dark-blue-button:hover {
+    background-color: #0cc0df;
+    color: #fff;
+}
+
 .white-text {
     color: #fff;
 }
@@ -110,47 +122,20 @@ footer p, footer a, footer li {
 
 /* ------------------------------------------ Event Banner */
 
-.event-date {
-    height: 550px;
+.video-container {
+    width: 100%;
+    margin: 0 auto;
     overflow: hidden;
-    background-image: url('../images/banner.webp');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 20% 50%;
-    transform: scaleX(-1);
-    user-select: none;
+    line-height: 0;
+    height: 500px;
 }
 
-.transparent-overlay {
-    background: rgb(255,255,255,0.7);
+.banner-video{
+    display: block;
+    width: 100%;
     height: 100%;
-}
-
-.date-text {
-    font-family: "Sofia Sans", sans-serif;
-    transform: scaleX(-1);
-}
-
-.break-mold {
-    color: #0c3470;
-}
-
-#next-event-date {
-    font-size: 40px;
-    color: #0c3470;
-}
-
-.dark-blue-button {
-    background-color: #0c3470;
-    color: #fff;
-    border-radius: 15px;
-    font-size: 16px;
-}
-
-.dark-blue-button:hover {
-    background-color: #0cc0df;
-    color: #fff;
+    object-fit: cover;
+    object-position: center 30%;
 }
 
 /* ------------------------------------------ Get Involved section */
