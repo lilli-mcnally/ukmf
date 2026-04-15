@@ -128,6 +128,7 @@ footer p, footer a, footer li {
     overflow: hidden;
     line-height: 0;
     height: 500px;
+    position: relative;
 }
 
 .banner-video{
@@ -136,6 +137,12 @@ footer p, footer a, footer li {
     height: 100%;
     object-fit: cover;
     object-position: center 30%;
+}
+
+.find-festival {
+    position: absolute;
+    top: 410px;
+    right: 50px;
 }
 
 /* ------------------------------------------ Get Involved section */
