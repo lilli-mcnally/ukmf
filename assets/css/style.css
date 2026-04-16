@@ -123,12 +123,14 @@ footer p, footer a, footer li {
 /* ------------------------------------------ Event Banner */
 
 .video-container {
+    height: 250px;
+    max-height: 600px;
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
     line-height: 0;
-    height: 500px;
     position: relative;
+    max-width: 1700px;
 }
 
 .banner-video{
@@ -372,16 +374,20 @@ footer li {
 
 /* ----------------------------------------------------------------------------- Media Queries */
 
+@media (min-width: 375px) {
+    .video-container {
+        height: calc(100vh - 300px);
+        min-height: 300px;
+    }
+
+
+}
+
 @media (min-width: 576px) {
 
     /* General Styling */
     p, a, li, label, .dark-blue-button {
         font-size: 18px;
-    }
-
-    /* Event Banner */
-    #next-event-date {
-        font-size: 45px;
     }
 
     .form-background {
@@ -416,12 +422,6 @@ footer li {
 
 @media (min-width: 768px){
 
-    /* Event Banner */
-    .event-date {
-        background-position: center;
-        height: 500px;
-    }
-
     .transparent-overlay {
         background: rgb(255,255,255,0.5);
     }
@@ -448,12 +448,6 @@ footer li {
     /* Navbar */
     .navbar-nav a {
         border-bottom: none;
-    }
-
-    /* Event Banner */
-    .transparent-overlay {
-        background: none;
-        height: 100%;
     }
 
     /* Find Festivals */
@@ -511,11 +505,6 @@ footer li {
         font-size: 22px;
     }
 
-    /* Event Banner */
-    #next-event-date {
-        font-size: 55px;
-    }
-
     #media-logo {
         height: 50px;
         width: auto;
@@ -523,13 +512,7 @@ footer li {
 }
 
 @media (min-width:1700px) {
-
-    /* Banner */
-    .event-date {
-        height: 600px;
-        background-position: center 30%;
-    }
-
+    
     /* Our Mission */
     .mission-image-div{
         height: 500px;
@@ -547,11 +530,6 @@ footer li {
     .nav-link,
     .tbc-p {
         font-size: 24px;
-    }
-
-    /* Banner */
-    #next-event-date {
-        font-size: 60px;
     }
 
     /* News */
