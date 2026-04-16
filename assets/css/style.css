@@ -46,7 +46,7 @@ footer p, footer a, footer li {
 .dark-blue-button {
     background-color: #0c3470;
     color: #fff;
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: 16px;
 }
 
@@ -173,6 +173,30 @@ footer p, footer a, footer li {
 .blue-text {
     color: #0c3470;
 }
+
+/* ------------------------------------------ Find a festival */
+
+.first-ff-div,.second-ff-div {
+    border: none;
+    background-color: #b1ff5a;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.first-ff-div {
+    margin-bottom: 25px;
+}
+    
+.second-ff-div {
+    background-color: #d2f6fd;
+    margin-top: 25px;
+}
+
+.ff-card-sm {
+    padding: 16px 0px 0px 0px;
+}
+
+
 
 /* ------------------------------------------ Contact Us */
 
@@ -430,6 +454,15 @@ footer li {
     .transparent-overlay {
         background: none;
         height: 100%;
+    }
+
+    /* Find Festivals */
+    .first-ff-div {
+        margin-bottom: 0;
+    }
+
+    .second-ff-div {
+        margin-top: 0;
     }
 
     /* Contact Us */
