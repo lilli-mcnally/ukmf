@@ -221,63 +221,68 @@
                 </div>
             </div>
         </div>
-
-        <!-- Contact Details section -->
+        
+        <!-- Contact Form -->
         <div class="container new-section">
-            <div class="p-2 p-sm-4 d-flex flex-column flex-lg-row justify-content-lg-between get-involved" id="contact-us">
-                <!-- Left side of contact section with contact form -->
-                <div class="form-background mb-4 mb-lg-0 col-12 col-lg-5 d-flex flex-column">                    
-                    <h3 class="eight-font-weight blue-text">Ready to Get Involved?</h3>
-                    <form method="POST" action="https://formspree.io/f/xkgbeaev">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="phone" class="form-label">Phone</label>
-                            <input type="tel" class="form-control" id="phone" name="phone" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <input type="radio" class="form-check-input" id="sponsor" name="radio" value="Sponsor" required>
-                            <label for="sponsor" class="form-check-label me-3">Sponsor</label>
-                            <input type="radio" class="form-check-input" id="exhibitor" name="radio" value="Exhibitor">
-                            <label for="exhibitor" class="form-check-label">Exhibitor</label>
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" name="message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn dark-blue-button">Submit</button>
-                    </form>
-                </div>
-                <!-- Right side of contact section with contact details -->
-                <div class="mt-4 mt-lg-0 col-12 col-lg-5 d-flex flex-column flex-grow-1 flex-lg-grow-0">
+            <div class="p-2 p-sm-4 d-flex flex-column flex-lg-row justify-content-lg-between align-items-stretch get-involved" id="contact-us">
+                <div class="col-12 col-lg-5 d-flex flex-column">
+                    <div class="form-background mb-4 mb-lg-0 w-100 d-flex flex-column flex-grow-1">                     
+                        <h3 class="eight-font-weight blue-text">Get Involved</h3>
+                        <form method="POST" action="https://formspree.io/f/xkgbeaev" class="d-flex flex-column flex-grow-1">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="radio" class="form-check-input" id="sponsor" name="radio" value="Sponsor" required>
+                                <label for="sponsor" class="form-check-label me-3">Sponsor</label>
+                                <input type="radio" class="form-check-input" id="exhibitor" name="radio" value="Exhibitor">
+                                <label for="exhibitor" class="form-check-label">Exhibitor</label>
+                            </div>
+                            <div class="mb-3">
+                                <select class="form-select" required>
+                                    <option selected disabled value="">Choose a festival</option>
+                                    <option value="1">Shropshire & Telford Manufacturing Festival</option>
+                                    <option value="2">West Midlands Manufacturing Festival</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn dark-blue-button align-self-start mt-auto">Submit</button>
+                        </form>
+                    </div>
+                </div> 
+                <div class="mt-4 mt-lg-0 col-12 col-lg-5 d-flex flex-column">
                     <h3 class="eight-font-weight blue-text">Contact Us</h3>
-                    <ul class="d-flex flex-column no-list-style">
+                    <ul class="d-flex flex-column no-list-style p-0">
                         <li class="my-2">
                             <a class="no-decoration contact-list" href="tel:+447770842682"><i class="fa-solid fa-phone"></i> +447770842682</a>
                         </li>
-                        <li class="my-2">
-                            <a class="no-decoration contact-list text-break" href="mailto:admin@ukmanufacturingfestivals.co.uk"><i class="fa-solid fa-envelope"></i> admin@<wbr>ukmanufacturingfestivals<wbr>.co.uk</a>
+                        <li class="my-2 text-break">
+                            <a class="no-decoration contact-list" href="mailto:admin@ukmanufacturingfestivals.co.uk"><i class="fa-solid fa-envelope"></i> admin@ukmanufacturingfestivals.co.uk</a>
                         </li>
                         <li class="my-2">
                             <a class="no-decoration contact-list" href="https://www.linkedin.com/company/manufacturing-festivals/" target="_blank"><i class="fa-brands fa-linkedin"></i> UK Manufacturing Festivals</a>
                         </li>
                     </ul>
-                    <h4 class="eight-font-weight blue-text">Our Next Event</h4>
-                    <ul class="d-flex flex-column no-list-style">
-                        <li class="my-2">
-                            <a class="no-decoration contact-list" href="https://maps.app.goo.gl/FoAvuueWaRQKAJiv9" target="_blank"><i class="fa-solid fa-location-dot"></i> The Hawthorns, Halfords Ln, West Bromwich</a>
-                        </li>
-                    </ul>
-                    <iframe class="venue-map flex-grow-1" width="100%" height="100%" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.3310401659323!2d-1.9638624999999994!3d52.509347899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bd4950c995e3%3A0xd0581b1ccf392ed8!2sThe%20Hawthorns!5e0!3m2!1sen!2suk!4v1767363220024!5m2!1sen!2suk"></iframe>
+                    <h4 class="eight-font-weight blue-text mt-2">Our Next Event</h4>
+                    <p class="contact-list"><i class="fa-solid fa-location-dot"></i> The Hawthorns, Halfords Ln, West Bromwich</p>
+                    
+                    <iframe class="venue-map flex-grow-1 rounded-3" width="100%" height="350" style="border:0;" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.6185848529143!2d-1.966453623318182!3d52.50955373711311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bd9036987f65%3A0x6b40656a84d2843d!2sThe%20Hawthorns!5e0!3m2!1sen!2suk!4v1713214567890!5m2!1sen!2suk"></iframe>
                 </div>
             </div>
         </div>
+
         <!-- Latest News -->
         <div class="new-section bg-dark-blue pt-5" id="latest-news">
             <h2 class="eight-font-weight white-text text-center">Latest News</h2>

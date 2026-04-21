@@ -238,7 +238,6 @@ footer p, footer a, footer li {
     background-color: #0cc0df;
     border-radius: 30px;
     font-weight: 500;
-    height: 1300px;
 }
 
 .venue-map {
@@ -258,7 +257,7 @@ footer p, footer a, footer li {
     border-radius: 25px;
 }
 
-.form-control:focus {
+.form-control:focus, .form-select:focus {
     border-color: #0c3470;
     box-shadow: 0 0 0 .15rem rgba(4, 32, 124, 0.3)
 }
@@ -281,22 +280,9 @@ footer p, footer a, footer li {
     box-shadow: none;
 }
 
-.submit-btn {
-    background-color: #F3EFF6;
-    border-width: 1px;
-    border-radius: 10px;
-}
-
-.submit-btn:hover {
-    border-width: 1px;
-    background-color: #F3EFF6;
-    border-color: #585693;
-}
-
 /* ----- Contact Us Form Message Box */
 
 #message {
-    height: 130px;
     resize: none;
     overflow: auto;
 }
@@ -490,11 +476,6 @@ footer li {
     .second-ff-div {
         margin-top: 0;
     }
-
-    /* Contact Us */
-    #contact-us {
-        height: 670px;
-    } 
 
     /* Our Supporters */
     .sponsor-silver {
