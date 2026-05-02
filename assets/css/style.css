@@ -162,6 +162,11 @@ footer p, footer a, footer li {
     padding: 20px;
 }
 
+#crossroads-large {
+    display: none;
+    object-position: center 60%;
+}
+
 
 /* -------------------------------------------- Bridge the Gap */
 
@@ -402,12 +407,6 @@ footer li {
 }
 
 @media (min-width: 576px) {
-
-    /* General Styling */
-    p, a, li, label, .dark-blue-button {
-        font-size: 18px;
-    }
-
     .form-background {
         border-radius: 15px;
     }
@@ -477,6 +476,15 @@ footer li {
         margin-top: 0;
     }
 
+    /* Get Involved */
+    #crossroads-small {
+        display: none;
+    }
+
+    #crossroads-large {
+        display: flex;
+    }
+
     /* Our Supporters */
     .sponsor-silver {
         object-fit: cover;
@@ -522,6 +530,18 @@ footer li {
         height: 40px;
         width: auto;
     }
+
+    /* Get Involved */
+    #crossroads-large {
+        max-height: 430px;
+    }
+}
+
+@media (min-width:1400px) {
+    /* General Styling */
+    p, a, li, label, .dark-blue-button {
+        font-size: 18px;
+    }
 }
 
 @media (min-width:1700px) {
@@ -543,6 +563,11 @@ footer li {
     .nav-link,
     .tbc-p {
         font-size: 24px;
+    }
+
+    /* Get Involved */
+    #crossroads-large {
+        max-height: 500px;
     }
 
     /* News */
