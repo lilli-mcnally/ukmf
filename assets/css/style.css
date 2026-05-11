@@ -87,7 +87,6 @@ footer p, footer a, footer li {
 }
 
 /* ------------------------------------------ Navbar */
-
 #logo {
     background: url(../images/logo-ukmf.webp) no-repeat center center;
     background-size: contain;
@@ -128,6 +127,7 @@ footer p, footer a, footer li {
     border: 1px solid #808080;
     box-shadow: none;
 }
+
 
 /* ------------------------------------------ Event Banner */
 
@@ -510,7 +510,7 @@ footer {
     }
 
     /* Navbar */
-    .navbar-nav a {
+    .navbar-nav li a {
         border-bottom: none;
     }
 

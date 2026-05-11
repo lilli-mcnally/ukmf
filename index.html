@@ -15,20 +15,22 @@
     <body>
         <header class="container">
             <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
+                <div class="container-fluid flex-lg-column align-items-start">
                     <!-- Logo -->
-                    <a id="logo" href="index.html" class="navbar-brand me-5"></a>
+                    <div>
+                        <a id="logo" href="index.html" class="navbar-brand d-block"></a>
+                    </div>
                     <!-- Navbar -->
                     <button class="navbar-toggler bars-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa-solid fa-bars"></i>
                     </button>
-                    <div class="collapse navbar-collapse ms-lg-5 justify-content-center" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link eight-font-weight no-decoration text-center me-lg-4" aria-current="page" href="#get-involved">Why Get Involved</a>
-                            <a class="nav-link eight-font-weight no-decoration text-center me-lg-4" href="#latest-news">Latest News</a>
-                            <a class="nav-link eight-font-weight no-decoration text-center me-lg-4" href="#our-sponsors">Our Sponsors</a>
-                            <a class="nav-link eight-font-weight no-decoration text-center" href="#our-mission">Our Mission</a>
-                        </div>
+                    <div class="collapse mt-3 navbar-collapse justify-content-center col-12" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav nav-links col-12">
+                            <li class="col-lg-3"><a class="nav-link eight-font-weight no-decoration text-center" href="#latest-news">Latest News</a></li>
+                            <li class="col-lg-3"><a class="nav-link eight-font-weight no-decoration text-center" aria-current="page" href="#get-involved">Why Get Involved</a></li>
+                            <li class="col-lg-3"><a class="nav-link eight-font-weight no-decoration text-center" href="#our-sponsors">Our Sponsors</a></li>
+                            <li class="col-lg-3"><a class="nav-link eight-font-weight no-decoration text-center" href="#our-mission">Our Mission</a></li>
+                        </ul>
                     </div>
                 </div>
             </nav>
