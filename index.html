@@ -15,11 +15,9 @@
     <body>
         <header class="container">
             <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid flex-lg-column align-items-start">
+                <div class="container-fluid d-flex flex-row flex-lg-column align-items-center align-items-lg-start justify-content-between">
                     <!-- Logo -->
-                    <a href="index.html" class="navbar-brand d-block">
-                        <a id="logo" href="index.html" class="navbar-brand d-block"></a>
-                    </a>
+                    <a id="logo" href="index.html" class="navbar-brand d-block"></a>
                     <!-- Navbar -->
                     <button class="navbar-toggler bars-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa-solid fa-bars"></i>
@@ -36,16 +34,26 @@
             </nav>
         </header>
         <!-- Date banner -->
-        <div class="video-container shadow" id="hero-video">
-            <video autoplay muted loop class="banner-video">
-                <source src="/assets/video/showcase.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <a href="#find-festival" class="btn dark-blue-button find-festival">
-                <span class="h2">
-                    Find a Festival
-                </span>
-            </a>
+        <div class="d-flex bg-dark-blue justify-content-center">
+            <div class="video-container bg-dark-blue" id="hero-video">
+                <video autoplay muted loop class="banner-video w-100 d-block">
+                    <source src="/assets/video/showcase.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <a href="#find-festival" class="btn dark-blue-button find-festival">
+                    <span class="h2">
+                        Find a Festival
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="bg-dark-blue d-flex justify-content-center p-5">
+            <div class="col-8">
+                <h1 class="green-text">700+ Young Minds to Inspire</h1>
+                <h3 class="white-text">12 Schools • 35 Manufacturers</h3>
+                <h4 class="white-text">Connecting local manufacturers with the next generation of engineering and manufacturing talent</h4>
+            </div>
         </div>
 
         <div class="m-5 row">

@@ -69,6 +69,10 @@ footer p, footer a, footer li {
     color: #fff;
 }
 
+.green-text {
+    color: #82BF44;
+}
+
 .green-statement {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -93,10 +97,10 @@ footer p, footer a, footer li {
 
 /* ------------------------------------------ Navbar */
 #logo {
-    background: url(../images/logo-ukmf.webp) no-repeat center center;
+    background: url(../images/ukmf-logo.webp) no-repeat center center;
     background-size: contain;
     height: 120px;
-    width: 120px;
+    width: 200px;
 }
 
 .nav-link {
@@ -470,6 +474,12 @@ footer {
 
 @media (min-width: 768px){
 
+    /* Navbar */
+    #logo {
+        width: 300px;
+    }
+
+    /* Hero Video */
     .transparent-overlay {
         background: rgb(255,255,255,0.5);
     }
@@ -505,6 +515,10 @@ footer {
     /* Navbar */
     .navbar-nav li a {
         border-bottom: none;
+    }
+
+    #logo {
+        width: 400px;
     }
 
     /* Find Festivals */
