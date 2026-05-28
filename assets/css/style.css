@@ -443,6 +443,9 @@ footer {
         min-height: 300px;
     }
 
+    #xs-display {
+        display: none;
+    }
 
 }
 
