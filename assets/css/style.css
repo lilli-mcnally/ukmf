@@ -128,8 +128,8 @@ footer p, footer a, footer li {
 }
 
 .bars-toggler:hover {
-    background-color: #0cc0df;
-    border: 1px solid #0cc0df;
+    background-color: #e6f9fd;
+    border: 1px solid #e6f9fd;
 }
 
 .bars-toggler:focus {
@@ -499,6 +499,10 @@ footer {
         transform: translateY(-50%);
         margin: 0;
         left: auto;
+    }
+
+    #md-display {
+        display: none;
     }
 
     .mini-card {
