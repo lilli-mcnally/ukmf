@@ -62,10 +62,6 @@ footer p, footer a, footer li {
     color: #fff;
 }
 
-.white-text {
-    color: #fff;
-}
-
 .green-text {
     color: #82BF44;
 }
@@ -177,6 +173,15 @@ footer p, footer a, footer li {
 
 .custom-h5 {
     font-size: 1rem;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    background-color: #82bf44;
+    border-radius: 5px;
 }
 
 
@@ -474,6 +479,16 @@ footer {
     /* Our Mission */
     .mission-image-div{
         height: 200px;
+    }
+
+    .md-display {
+        display: block;
+    }
+}
+
+@media (min-width: 680px) {
+    .md-display {
+        display: none;
     }
 }
 
