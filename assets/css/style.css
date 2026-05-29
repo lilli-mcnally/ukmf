@@ -10,6 +10,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: #133158;
+    font-weight: 600;
 }
 
 p, a, li, label {
@@ -19,10 +20,6 @@ p, a, li, label {
 
 .new-section {
     margin-top: 50px;
-}
-
-.new-mini-section {
-    margin-top: 25px;
 }
 
 .image-styling {
@@ -174,6 +171,10 @@ footer p, footer a, footer li {
     background-color: rgba(12, 192, 223, 0.8);
 }
 
+.custom-h5 {
+    font-size: 1rem;
+}
+
 
 /* ------------------------------------------ Get Involved section */
 
@@ -233,10 +234,6 @@ footer p, footer a, footer li {
 .fa-mini-cards {
     font-size: 30px;
     padding-right: 10px;
-}
-
-.banner-100 {
-    background-color: #0cc0df;
 }
 
 
@@ -454,12 +451,16 @@ footer {
 }
 
 @media (min-width: 576px) {
+    
+    .custom-h5 {
+        font-size: 1.25rem;
+    }
+    
     .form-background {
         border-radius: 15px;
     }
 
     /* Contact Us Form */
-
     .venue-map {
         border-radius: 10px;
     }
@@ -486,12 +487,6 @@ footer {
         width: 300px;
     }
 
-    /* Hero Video */
-    .transparent-overlay {
-        background: rgb(255,255,255,0.5);
-    }
-
-
     /* Event Banner */
     .find-festival {
         top: 85%;
@@ -517,12 +512,6 @@ footer {
 }
 
 @media (min-width:992px) {
-
-    /* General Styling */
-    .align-items-none {
-        align-items: none;
-    }
-
     /* Navbar */
     .navbar-nav li a {
         border-bottom: none;
@@ -637,30 +626,4 @@ footer {
         font-size: 18px;
         color: #fff;
     }
-}
-
-
-.colour-1 {
-    background-color: #133158;
-    height:200px;
-}
-.colour-2 {
-    background-color: #2f5951;
-    height:200px;
-}
-.colour-3 {
-    background-color: #82bf44;
-    height:200px;
-}
-.colour-4 {
-    background-color: #103874;
-    height:200px;
-}
-.colour-5 {
-    background-color: #f38e17;
-    height:200px;
-}
-.colour-6 {
-    background-color: #e6f9fd;
-    height:200px;
 }
