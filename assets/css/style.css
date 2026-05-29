@@ -92,6 +92,10 @@ footer p, footer a, footer li {
     border-bottom: 4px solid #0c3470;
 }
 
+.ten-br {
+    border-radius: 10px;
+}
+
 /* ------------------------------------------ Navbar */
 #logo {
     background: url(../images/ukmf-logo.webp) no-repeat center center;
@@ -179,10 +183,8 @@ footer p, footer a, footer li {
 /* ------------------------------------------ Get Involved section */
 
 .get-involved-div {
-    border: 6px solid #0cc0df;
     background-color: #e6f9fd;
     color: #133158;
-    border-radius: 15px;
     padding: 20px;
 }
 
@@ -206,15 +208,27 @@ footer p, footer a, footer li {
 
 /* ------------------------------------------ Find a festival */
 
+.mini-logo {
+    height: 65px;
+    width: auto;
+    object-fit: cover;
+}
+
+.fest-img-left {
+    border-bottom: 10px solid #0cc0df;
+}
+
+.fest-img-right {
+    border-bottom: 10px solid #82bf44;
+}
+
+.find-fest-link:hover {
+    text-decoration: underline; 
+}
+
 .first-ff-div,.second-ff-div {
     border: none;
     border-radius: 15px;
-    padding: 20px;
-}
-
-.first-ff-div {
-    background-color: #82bf44;
-    margin-bottom: 25px;
 }
     
 .second-ff-div {
@@ -238,12 +252,6 @@ footer p, footer a, footer li {
 
 
 /* ------------------------------------------ Get Involved Cards */
-
-.get-involved-card {
-    border: 10px solid #133158;
-    border-radius: 25px;
-}
-
 .hand-icon {
     color: #f38e17;
 }
@@ -252,16 +260,10 @@ footer p, footer a, footer li {
     background-color: #133158;
 }
 
-.blue-text {
-    color: #133158;
-}
-
-
 /* ------------------------------------------ Contact Us */
 
 #contact-us {
     background-color: #0cc0df;
-    border-radius: 30px;
 }
 
 .venue-map {
@@ -426,11 +428,6 @@ footer {
     object-fit: contain;
 }
 
-.clean-email-break {
-    word-break: break-word; /* Older browser fallback */
-    overflow-wrap: anywhere; /* Allows breaking at natural points like @ or dots */
-}
-
 .footer-line {
     border-bottom: 1px solid rgb(255,255,255,0.5);
 }
@@ -438,13 +435,13 @@ footer {
 
 /* ----------------------------------------------------------------------------- Media Queries */
 
-@media (min-width: 375px) {
+@media (min-width: 380px) {
     .video-container {
         height: calc(100vh - 300px);
         min-height: 300px;
     }
 
-    #xs-display {
+    .xs-display {
         display: none;
     }
 
