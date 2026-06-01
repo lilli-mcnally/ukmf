@@ -220,11 +220,11 @@ footer p, footer a, footer li {
 }
 
 .fest-img-left {
-    border-bottom: 10px solid #0cc0df;
+    border-bottom: 10px solid #82bf44;
 }
 
 .fest-img-right {
-    border-bottom: 10px solid #82bf44;
+    border-bottom: 10px solid #0cc0df;
 }
 
 .find-fest-link:hover {
