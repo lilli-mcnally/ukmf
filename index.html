@@ -1,123 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Come and meet your future workforce at WMMF 2026! Connect with students, bridge the skills gap and secure the future of UK manufacturing.">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/1c3a2196db.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <title>West Midlands Manufacturing Festival</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Come and meet your future workforce at WMMF 2026! Connect with students, bridge the skills gap and secure the future of UK manufacturing.">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/1c3a2196db.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+        <title>West Midlands Manufacturing Festival</title>
+    </head>
     <body>
-        <header class="container">
+        <header class="container" id="top-of-page">
             <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
+                <div class="container-fluid d-flex flex-row flex-lg-column align-items-center align-items-lg-start justify-content-between">
                     <!-- Logo -->
-                    <a id="logo" href="index.html" class="navbar-brand me-5"></a>
+                    <a id="logo" href="index.html" class="navbar-brand d-block"></a>
                     <!-- Navbar -->
                     <button class="navbar-toggler bars-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa-solid fa-bars"></i>
                     </button>
-                    <div class="collapse navbar-collapse ms-lg-5 justify-content-center" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link eight-font-weight no-decoration text-center me-lg-4" aria-current="page" href="#get-involved">Why Get Involved</a>
-                            <a class="nav-link eight-font-weight no-decoration text-center me-lg-4" href="#latest-news">Latest News</a>
-                            <a class="nav-link eight-font-weight no-decoration text-center me-lg-4" href="#our-sponsors">Our Sponsors</a>
-                            <a class="nav-link eight-font-weight no-decoration text-center" href="#our-mission">Our Mission</a>
-                        </div>
+                    <div class="collapse mt-3 navbar-collapse justify-content-center col-12" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav nav-links col-12 justify-content-around">
+                            <li><a class="nav-link six-font-weight no-decoration text-center" href="#latest-news">Latest News</a></li>
+                            <li><a class="nav-link six-font-weight no-decoration text-center" aria-current="page" href="#get-involved">Why Get Involved</a></li>
+                            <li><a class="nav-link six-font-weight no-decoration text-center" href="#our-sponsors">Our Sponsors</a></li>
+                            <li><a class="nav-link six-font-weight no-decoration text-center" href="#our-mission">Our Mission</a></li>
+                        </ul>
                     </div>
                 </div>
             </nav>
         </header>
         <!-- Date banner -->
-        <div class="col-12 event-date" title="Child with pilot wings made of cardboard">
-            <div class="transparent-overlay">
-                <div class="container d-flex flex-row-reverse justify-content-center justify-content-lg-start h-100">
-                    <div class="d-flex flex-column justify-content-center date-text text-center">
-                        <!-- Date and location -->
-                        <h2 class="break-mold">West Midlands Manufacturing Festival 2027</h2>
-                        <p class="tbc-p">Date and Location TBC</p>
-                        <!-- Break the Mold large text -->
-                        <div class="break-mold my-4 my-sm-0">
-                            <div class="my-2 my-sm-4">
-                                <h2>Break the mold</h2>
-                            </div>
-                            <div class="my-2 my-sm-4" id="build-future">
-                                <h2>Build the future</h2>
-                            </div>
-                            <div class="my-2 my-sm-4" id="inspire-generation">
-                                <h2>Inspire the next generation</h2>
-                            </div>
-                        </div>
-                        <!-- Sponsor and Exhibitor buttons -->
-                        <div class="d-flex flex-column flex-md-row align-items-center justify-content-center col-12">
-                            <a href="#contact-us" type="button" class="btn font-p dark-blue-button my-3 mx-sm-4 col-7 col-sm-5 col-lg-4">Become a Sponsor</a>
-                            <a href="#contact-us" type="button" class="btn font-p dark-blue-button my-3 mx-sm-4 col-7 col-sm-5 col-lg-4">Keen to exhibit</a>
-                        </div>
-                    </div>
+        <div class="d-flex bg-dark-blue justify-content-center">
+            <div class="video-container bg-dark-blue" id="hero-video">
+                <video autoplay muted loop class="banner-video w-100 d-block">
+                    <source src="/assets/video/showcase.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <a href="#find-festival" class="btn text-white find-festival">
+                    <span class="h2">
+                        Find a Festival
+                    </span>
+                </a>
+            </div>
+        </div>
+        <a href="#top-of-page" class="btn dark-blue-button back-to-top">Back to top</a>
+        <!-- Young Minds Section -->
+        <div class="bg-dark-blue">
+            <div class="container d-flex justify-content-center text-center py-5">
+                <div class="col-lg-10 col-xl-8">
+                    <h1 class="green-text display-5">700+ <br class="xs-display"> Young Minds <br id="md-display">to Inspire</h1>
+                    <h4 class="text-white d-block d-sm-none pt-2">12 Schools</h4>
+                    <h4 class="text-white d-block d-sm-none pt-2">35 Manufacturers</h4>
+                    <h4 class="text-white d-none d-sm-block">12 Schools • 35 Manufacturers</h4>
+                    <h5 class="text-white custom-h5 pt-2">Connecting local manufacturers with the next generation of engineering and manufacturing talent</h5>
                 </div>
             </div>
         </div>
         <!-- Why get involved section -->
-        <div class="container new-section two-font-weight font-p" id="get-involved">
-            <div class="d-flex get-involved-div flex-column-reverse align-items-center align-items-lg-stretch flex-lg-row">
-                <div class="col-12 col-sm-10 col-lg-4 p-0 d-flex">
-                    <img class="image-styling" src="assets/images/get-involved-one.webp" alt="Experienced mechanical engineer teaching apprentice">
-                </div>
-                <div class="col-12 col-sm-10 col-lg-8 px-lg-5 get-involved-text align-items-lg-center">
-                    <p>The West Midlands has long been recognised as a powerhouse of UK manufacturing. With a rich industrial heritage and a modern reputation for innovation, the region is home to world-leading businesses in automotive, aerospace, advanced engineering, and cutting-edge technologies.</p>
-                    <p>However, this won't always be the case if we can't secure the next generation of engineers and manufacturers. With a widening skills gap and manufacturers struggling to access and retain new talent, it's never been more important to show young people the exciting and rewarding career paths that manufacturing in the West Midlands can offer.</p>
+        <div class="bg-dark-blue" id="get-involved">
+            <div class="container pb-5">
+                <div class="card col-12 ten-br px-md-4 d-flex flex-column align-items-center flex-lg-row align-items-lg-stretch justify-content-lg-evenly">
+                    <div class="card-body col-12 col-lg-4 mt-3">
+                        <h5 class="mb-4">UK manufacturing is facing a growing skills gap</h5>
+                        <p>A large part of the manufacturing workforce is approaching retirement, creating an urgent need for the next generation of skilled talent.</p>
+                        <p>Manufacturing and engineering have long been at the heart of the UK economy, driving innovation, productivity, and growth. But without more young people entering the sector, that future is at risk.</p>
+                    </div>
+                    <div class="card-body col-12 col-lg-4 p-0">
+                        <img src="assets/images/crossroads.webp" class="image-styling get-involved-image" id="crossroads-large" alt="Exhibitor and student looking at scalextric">
+                        <img src="assets/images/crossroads-responsive.webp" class="image-styling get-involved-image" id="crossroads-small" alt="Exhibitor and student looking at scalextric">
+                    </div>
+                    <div class="card-body col-12 col-lg-4 mt-3">
+                        <h5 class="mb-4">This is where YOU come in</h5>
+                        <p>Engaging young people has never been more important. Modern manufacturing is innovative, high-tech, creative, and full of opportunity — yet outdated perceptions still stop many students from considering it as a career.</p>
+                        <p>By giving young people real-world experiences and direct access to industry, we can help inspire the next generation of engineers, makers, and manufacturers.</p>
+                    </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-center text-center green-statement">
+        </div>
+        <!-- Bridge the gap Section -->
+        <div class="container new-section d-flex justify-content-center">
+            <div class="col-12 col-sm-10 col-lg-8 our-mission-div p-4">
+                <h3 class="text-center blue-text">Inspiring the future of manufacturing</h3>
+            </div>
+        </div>
+        <div class="container mt-3 d-flex justify-content-center text-center mt-4 mb-3">
+            <div class="col-12 blue-text d-flex flex-column align-items-center">
+                <p class="col-12 col-lg-8 lead">UK Manufacturing Festivals bring together manufacturers, educators, and young people to showcase the exciting opportunities within the sector.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-between mx-2 mx-sm-0">
+                <div class="card bg-light col-12 col-lg-5 bridge-gap-card shadow mb-4 mb-lg-0 ten-br">
+                    <div class="card-body">
+                        <p class="card-text">We currently deliver two successful Manufacturing Festivals each year in Telford and Sandwell, connecting local industry with schools and young people across the region.</p>
+                    </div>
+                </div>
+                <div class="card bg-light col-12 col-lg-5 bridge-gap-card shadow ten-br">
+                    <div class="card-body">
+                        <p class="card-text">Each festival is a high-impact, one-day event designed to inspire future talent, challenge perceptions, and highlight the wide range of careers available in manufacturing and engineering.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Find a festival -->
+        <div class="container new-section" id="find-festival">
+            <div class="col-12 blue-text d-flex flex-column align-items-center">
+                <h2 class="mb-3">Find a Festival</h2>
+            </div>
+            <div class="container mt-3 d-flex justify-content-center text-center">
                 <div class="col-12 blue-text d-flex flex-column align-items-center">
-                    <h2 class="eight-font-weight mb-3">That's where YOU come in</h2>
-                    <h5 class="col-12 col-lg-10 eight-font-weight">West Midlands Manufacturing Festival is more than an event - it's a mission.</h5>
-                    <h5 class="col-12 col-lg-10 pt-3 pt-md-0 eight-font-weight">A mission to inspire the next generation, and open doors to careers students may never have considered.</h5>
+                    <p class="col-12 col-lg-8 lead">See how your business can inspire the next generation of manufacturing talent.</p>
                 </div>
             </div>
-            <div class="d-flex get-involved-div flex-column-reverse align-items-lg-center align-items-center align-items-lg-stretch flex-lg-row">
-                <div class="col-12 col-sm-10 col-lg-8 px-lg-5 mt-3 get-involved-text">
-                    <p>The event is your opportunity to showcase your business and influence young minds - whether it's through interactive displays, showing off your products or wowing them with your plans for future innovation</p>
-                    <ul class="no-list-style">
-                        <li class="mb-2"><i class="fa-solid fa-gear pe-1"></i> Promote your manufacturing business and showcase your skills</li>
-                        <li class="mb-2"><i class="fa-solid fa-gear pe-1"></i> Discover opportunities to work with schools and secure your future talent</li>
-                        <li class="mb-2"><i class="fa-solid fa-gear pe-1"></i> Entice young minds and fresh thinking into your business</li>
-                        <li class="mb-2"><i class="fa-solid fa-gear pe-1"></i> Showcase innovative new technologies, products and services.</li>
-                        <li class="mb-2"><i class="fa-solid fa-gear pe-1"></i> Help us to raise awareness of the incredible work done by West Midlands Manufacturers</li>
-                    </ul>
+            <div class="container d-flex flex-column align-items-center flex-lg-row align-items-lg-stretch justify-content-lg-evenly pt-3 pb-4 pb-lg-5">
+                <div class="card col-12 col-md-10 col-lg-6 bg-dark-blue mb-2 shadow ten-br mb-4 mb-lg-0 me-lg-3">
+                    <div class="d-flex align-items-center px-1 px-sm-4 py-3">
+                        <img src="./assets/images/ukmf-logo-card.webp" alt="UK Manufacturing Festival Logo" class="mini-logo">
+                        <h3 class="ms-2 green-text">Shropshire & Telford <br><span class="text-white">Manufacturing Festival</span></h3>
+                    </div>
+                    <img src="assets/images/festival-one.webp" class="image-styling fest-img-left" alt="Exhibitor showing different materials to a student">
+                    <div class="d-flex flex-column px-1 px-sm-4 py-3">
+                        <h4 class="mb-3 ms-2 text-white"><i class="fa-regular fa-calendar-days green-text me-1"></i> 24th November 2026</h4>
+                        <a href="https://maps.app.goo.gl/pNT8enxC85xbZP3a6" target="_blank" class="mb-3 ms-2 no-decoration find-fest-link text-white h4 six-font-weight"><i class="fa-solid fa-location-dot green-text me-1"></i> SEAH Stadium, Telford, TF1 2NW</a>
+                    </div>
                 </div>
-                <div class="col-12 col-sm-10 col-lg-4 p-0 d-flex">
-                    <img class="image-styling" src="assets/images/get-involved-two.webp" alt="Engineer working on an electrical project">
+                <div class="card col-12 col-md-10 col-lg-6 bg-dark-blue mb-2 shadow ten-br mb-4 mb-lg-0 ms-lg-3">
+                    <div class="d-flex align-items-center px-1 px-sm-4 py-3">
+                        <img src="./assets/images/ukmf-logo-card.webp" alt="UK Manufacturing Festival Logo" class="mini-logo">
+                        <h3 class="ms-2 light-blue-text">West Midlands <br><span class="text-white">Manufacturing Festival</span></h3>
+                    </div>
+                    <img src="assets/images/festival-two.webp" class="image-styling fest-img-right" alt="Exhibitor showing student how to use machine">
+                    <div class="d-flex flex-column px-1 px-sm-4 py-3">
+                        <h4 class="mb-3 ms-2 text-white"><i class="fa-regular fa-calendar-days light-blue-text me-1"></i> 4th March 2027</h4>
+                        <a href="https://maps.app.goo.gl/U1VQcX159xmwSaXd7" target="_blank" class="mb-3 ms-2 no-decoration find-fest-link text-white h4 six-font-weight"><i class="fa-solid fa-location-dot light-blue-text me-1"></i> The Hawthorns, West Bromwich, B71 4LF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-3 d-flex justify-content-center text-center">
+            <div class="col-12 blue-text d-flex flex-column align-items-center">
+                <p class="col-12 col-md-10 col-xl-8 lead">From hands-on activities to live demonstrations, Manufacturing Festivals help YOU to connect with young people in memorable and meaningful ways.</p>
+            </div>
+        </div>       
+        <!-- Mini Cards with Icons -->
+        <div class="container new-section">
+            <div class="row mx-1 mx-md-0 gx-5 gy-4 justify-content-center">
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="card bg-light border-bottom-card shadow mini-card ten-br">
+                        <div class="card-body d-flex align-items-center">
+                            <p class="m-0"><i class="fa-mini-cards fa-solid fa-bullhorn"></i></p>
+                            <p class="card-text">Promote your manufacturing business and showcase your skills</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="card bg-light border-bottom-card shadow mini-card ten-br">
+                        <div class="card-body d-flex align-items-center">
+                            <p class="m-0"><i class="fa-mini-cards fa-solid fa-user-graduate"></i></p>
+                            <p class="card-text">Discover opportunities to work with schools and secure your future talent</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-block d-lg-none col-12 "></div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="card bg-light border-bottom-card shadow mini-card ten-br">
+                        <div class="card-body d-flex align-items-center">
+                            <p class="m-0"><i class="fa-mini-cards fa-solid fa-lightbulb"></i></p>
+                            <p class="card-text">Entice young minds and fresh thinking into your business</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-block d-lg-none col-12 "></div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="card bg-light border-bottom-card shadow mini-card ten-br">
+                        <div class="card-body d-flex align-items-center">
+                            <p class="m-0"><i class="fa-mini-cards fa-solid fa-gear"></i></p>
+                            <p class="card-text">Showcase innovative new technologies, products and services.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="card bg-light border-bottom-card shadow mini-card ten-br">
+                        <div class="card-body d-flex align-items-center">
+                            <p class="m-0"><i class="fa-mini-cards fa-solid fa-eye"></i></p>
+                            <p class="card-text">Raise awareness of the incredible work done by UK manufacturers</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Get involved card section -->
         <div class="new-section bg-dark-blue">
             <div class="container d-flex flex-column align-items-center flex-lg-row align-items-lg-stretch justify-content-lg-evenly py-5">
-                <div class="card col-12 col-sm-10 col-lg-4 get-involved-div get-involved-card">
+                <div class="card col-12 col-sm-10 col-lg-4 get-involved-div ten-br">
                     <h3 class="card-title text-center">You can't be what you can't see</h3>
-                    <img src="assets/images/get-involved-three.webp" class="card-img-top image-styling" alt="Two students working on an engineering project">
+                    <img src="assets/images/bridge-the-gap-one.webp" class="image-styling" alt="Group of students working together on an engineering project">
                     <div class="card-body">
                         <p class="card-text">It's a phrase we hear time and time again when talking about young people and their future careers. In manufacturing and engineering - an industry filled with innovation, opportunity and growth - too many students simply don't know what's out there.</p>
                         <p class="card-text">No wonder we have a skills shortage!</p>
                     </div>
                 </div>
-                <div class="card col-12 col-sm-10 col-lg-4 get-involved-div get-involved-card">
+                <div class="card col-12 col-sm-10 col-lg-4 get-involved-div ten-br my-3 my-lg-0 mx-lg-3">
                     <h3 class="card-title text-center">Show them what's possible</h3>
-                    <img src="assets/images/get-involved-four.webp" class="card-img-top image-styling" alt="Two students planning an engineering project on a projector">
+                    <img src="assets/images/bridge-the-gap-two.webp" class="image-styling" alt="Student operating a copper coil scientific demonstration">
                     <div class="card-body">
-                        <p class="card-text">Get involved - as an exhibitor or sponsor - and help us to inspire the next generation through interactive, hands-on displays that bring the world of engineering and manufacturing to life.</p>
+                        <p class="card-text">Join us as an exhibitor or sponsor - and help us to inspire the next generation through interactive, hands-on displays that bring the world of engineering and manufacturing to life.</p>
                         <p class="card-text">Together we can close the skills gap and build a more inclusive, accessible future for our manufacturing industry in the West Midlands.</p>
                     </div>
                 </div>
-                <div class="card col-12 col-sm-10 col-lg-4 get-involved-div get-involved-card">
+                <div class="card col-12 col-sm-10 col-lg-4 get-involved-div ten-br">
                     <h3 class="card-title text-center">Step up, show up, make a difference</h3>
-                    <img src="assets/images/get-involved-five.webp" class="card-img-top image-styling" alt="A group of students working on the mechanics of an engineering project">
+                    <img src="assets/images/bridge-the-gap-three.webp" class="image-styling" alt="Students talking to staff at an exhibition stand">
                     <div class="card-body">
                         <p class="card-text">Join our Manufacturing Festival and help students see the real people behind the industry. A few hours of your time could spark a future career.</p>
                         <p class="card-text"><i class="fa-regular fa-hand-point-down hand-icon"></i> Get involved today - because you might just be the reason a young person says, "That's who I want to be."</p>
@@ -126,137 +224,147 @@
             </div>
         </div>
         <!-- Next steps -->
-        <div class="container d-flex justify-content-center text-center green-statement">
+        <div class="container new-section d-flex justify-content-center">
             <div class="col-12 blue-text d-flex flex-column align-items-center">
-                <h2 class="eight-font-weight mb-3">Next Steps</h2>
-                <h5 class="col-12 col-lg-10 eight-font-weight">If you want to secure the future of your business - and continue the heritage of manufacturing in the West Midlands - this is the place to do it.</h5>
+                <h2 class="mb-3 text-center">Ready to build your future workforce?</h2>
+                <p class="col-12 col-lg-8">Join us as a sponsor or exhibitor and inspire the next generation of manufacturers and engineers.</p>
             </div>
         </div>
-        <!-- Contact Details section -->
-        <div class="container new-section">
-            <div class="p-2 p-sm-4 d-flex flex-column flex-lg-row justify-content-lg-between get-involved font-p" id="contact-us">
-                <!-- Left side of contact section with contact form -->
-                <div class="form-background mb-4 mb-lg-0 col-12 col-lg-5 d-flex flex-column">                    
-                    <h3 class="eight-font-weight blue-text">Ready to Get Involved?</h3>
-                    <form method="POST" action="https://formspree.io/f/xkgbeaev">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="phone" class="form-label">Phone</label>
-                            <input type="tel" class="form-control" id="phone" name="phone" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <input type="radio" class="form-check-input" id="sponsor" name="radio" value="Sponsor" required>
-                            <label for="sponsor" class="form-check-label me-3">Sponsor</label>
-                            <input type="radio" class="form-check-input" id="exhibitor" name="radio" value="Exhibitor">
-                            <label for="exhibitor" class="form-check-label">Exhibitor</label>
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" name="message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn dark-blue-button">Submit</button>
-                    </form>
-                </div>
-                <!-- Right side of contact section with contact details -->
-                <div class="mt-4 mt-lg-0 col-12 col-lg-5 d-flex flex-column flex-grow-1 flex-lg-grow-0">
-                    <h3 class="eight-font-weight blue-text">Contact Us</h3>
-                    <ul class="d-flex flex-column no-list-style">
-                        <li class="my-2">
-                            <a class="no-decoration contact-list" href="tel:+447770842682"><i class="fa-solid fa-phone"></i> +447770842682</a>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <ul class="list-unstyled">
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="fa-solid fa-circle-check light-blue-text me-3 mt-1"></i>
+                            <span><strong>Direct Access:</strong> Engage with 700+ local students</span>
                         </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="fa-solid fa-circle-check light-blue-text me-3 mt-1"></i>
+                            <span><strong>Brand Visibility:</strong> Showcase your business and innovation</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="fa-solid fa-circle-check light-blue-text me-3 mt-1"></i>
+                            <span><strong>Talent Pipeline:</strong> Promote careers within your organisation</span>
+                        </li>
+                        <li class="d-flex align-items-start">
+                            <i class="fa-solid fa-circle-check light-blue-text me-3 mt-1"></i>
+                            <span><strong>Meaningful Interactions:</strong> Help shape future talent in your region</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Form -->
+        <div class="container new-section">
+            <div class="p-2 p-sm-4 d-flex flex-column flex-lg-row justify-content-lg-between align-items-stretch get-involved ten-br" id="contact-us">
+                <div class="col-12 col-lg-5 d-flex flex-column">
+                    <div class="form-background mb-4 mb-lg-0 w-100 d-flex flex-column flex-grow-1">                     
+                        <h3 class="blue-text">Get Involved</h3>
+                        <form method="POST" action="https://formspree.io/f/xkgbeaev" class="d-flex flex-column flex-grow-1">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="radio" class="form-check-input" id="sponsor" name="radio" value="Sponsor" required>
+                                <label for="sponsor" class="form-check-label me-3">Sponsor</label>
+                                <input type="radio" class="form-check-input" id="exhibitor" name="radio" value="Exhibitor">
+                                <label for="exhibitor" class="form-check-label">Exhibitor</label>
+                            </div>
+                            <div class="mb-3">
+                                <select name="festival" class="form-select" required>
+                                    <option selected disabled value="">Choose a festival</option>
+                                    <option value="Shropshire & Telford Manufacturing Festival">Shropshire & Telford Manufacturing Festival</option>
+                                    <option value="West Midlands Manufacturing Festival">West Midlands Manufacturing Festival</option>
+                                    <option value="Both">Both</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn dark-blue-button align-self-start mt-auto">Submit</button>
+                        </form>
+                    </div>
+                </div> 
+                <div class="mt-4 mt-lg-0 col-12 col-lg-5 d-flex flex-column">
+                    <h3 class="blue-text">Contact Us</h3>
+                    <ul class="d-flex flex-column no-list-style p-0">
                         <li class="my-2">
-                            <a class="no-decoration contact-list text-break" href="mailto:admin@ukmanufacturingfestivals.co.uk"><i class="fa-solid fa-envelope"></i> admin@<wbr>ukmanufacturingfestivals<wbr>.co.uk</a>
+                            <a class="no-decoration contact-list" href="tel:+447770842682"><i class="fa-solid fa-phone"></i> 07770 842 682</a>
+                        </li>
+                        <li class="my-2 text-break ">
+                            <a class="no-decoration contact-list" href="mailto:admin@ukmanufacturingfestivals.co.uk"><i class="fa-solid fa-envelope"></i> admin@ukmanufacturing<br class="xs-display">festivals.co.uk</a>
                         </li>
                         <li class="my-2">
                             <a class="no-decoration contact-list" href="https://www.linkedin.com/company/manufacturing-festivals/" target="_blank"><i class="fa-brands fa-linkedin"></i> UK Manufacturing Festivals</a>
                         </li>
                     </ul>
-                    <h4 class="eight-font-weight blue-text">Our Next Event</h4>
-                    <ul class="d-flex flex-column no-list-style">
-                        <li class="my-2">
-                            <a class="no-decoration contact-list" href="https://maps.app.goo.gl/FoAvuueWaRQKAJiv9" target="_blank"><i class="fa-solid fa-location-dot"></i> The Hawthorns, Halfords Ln, West Bromwich</a>
-                        </li>
-                    </ul>
-                    <iframe class="venue-map flex-grow-1" width="100%" height="100%" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.3310401659323!2d-1.9638624999999994!3d52.509347899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bd4950c995e3%3A0xd0581b1ccf392ed8!2sThe%20Hawthorns!5e0!3m2!1sen!2suk!4v1767363220024!5m2!1sen!2suk"></iframe>
+                    <h4 class="blue-text mt-2">Our Next Event</h4>
+                    <a href="https://maps.app.goo.gl/pNT8enxC85xbZP3a6" target="_blank" class="no-decoration contact-list"><i class="fa-solid fa-location-dot"></i> SEAH Stadium Bucks Way, Shropshire, TF1 2TU</a></p>
+                    <iframe class="venue-map flex-grow-1 rounded-3" width="100%" height="350" style="border:0;" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2417.9293901242445!2d-2.5039608234185406!3d52.69736842308283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a81f34e2d662d%3A0xe7116f13c5d3b995!2sThe%20SEAH%20Stadium!5e0!3m2!1sen!2suk!4v1778530555314!5m2!1sen!2suk"></iframe>
                 </div>
             </div>
         </div>
         <!-- Latest News -->
         <div class="new-section bg-dark-blue pt-5" id="latest-news">
-            <h2 class="eight-font-weight white-text text-center">Latest News</h2>
+            <h2 class="text-white text-center">Festival News & Updates</h2>
             <div class="container d-flex flex-column align-items-center flex-lg-row align-items-lg-stretch justify-content-lg-evenly pt-3 pb-5">
-                <div class="card col-12 col-sm-10 col-lg-4 get-involved-div get-involved-card news-div">
-                    <p class="small-date text-center text-decoration-underline">10th December 2025</p>
-                    <h3 class="card-title news-title text-center">Festival Launch Brings Together Industry, Educators and Future Talent &#127881;</h3>
-                    <img src="assets/images/festival-launch-news.webp" class="card-img-top image-styling" alt="Student panel at the Festival's Networking Event">
+                <div class="card col-12 col-sm-10 col-lg-4 get-involved-div ten-br news-div">
+                    <p class="small-date text-center text-decoration-underline">7th May 2026</p>
+                    <h3 class="card-title news-title text-center">Exciting news! &#129309;</h3>
                     <div class="card-body">
-                        <p class="card-text">The recent launch event for the West Midlands Manufacturing Festival drew a packed audience of industry leaders, educators and aspiring engineers to Aston University's Engineering Academy, for an evening focused on collaboration, skills development and the future of the manufacturing sector.</p>
-                        <p class="card-text">With Aston University generously providing the venue and hospitality, the event showcased why cross-sector partnerships are vital to tackling the skills gap. Festival sponsors Enginuity, Wagstaff Recruitment, Vanguard Foundry and Next Gen Makers joined a variety of speakers on the stage, sharing their perspectives on workforce development, emerging talent pipelines and the changing expectations of young people entering manufacturing careers.</p>
-                        <p class="card-text">Aston University students provided a standout moment of the evening, taking to the stage to discuss their enthusiasm for engineering and what manufacturers can do to inspire the next generation.</p>
-                        <p class="card-text">Director of Engineering, Karen Byng, also led a lively discussion on how academies such as Aston University Engineering Academy can accelerate real-world projects for manufacturers while giving learners essential hands-on experience.</p>
-                        <p class="card-text">Expertly hosted by Engineers Insight Co-Founder, Tom Flude, the event underscored an important message: that the clock is ticking for the manufacturing sector, but when innovators, educators and manufacturers work together, the skills gap can be overcome.</p>
+                        <p class="card-text">We've joined forces with Telford Together, a collaboration of Telford & Wrekin Council, Harper Adams University and Telford College.</p>
+                        <p class="card-text">Their vision to strengthen and co-ordinate engagement between local schools and businesses perfectly aligns with what we're hoping to achieve with our upcoming Shropshire & Telford Manufacturing Festival, and we're thrilled to be working in partnership with them.</p>
+                        <p class="card-text fst-italic">"Manufacturing is a vital part of Telford and Wrekin's identity and future, and this event will give young people the chance to see first-hand the exciting careers and opportunities it can offer.</p>
+                        <p class="card-text fst-italic">By bringing schools and businesses together through Telford Together, and working with partners such as UK Manufacturing Festivals, we're helping to inspire ambition, build confidence and create clearer pathways from education into local jobs."</p>
+                        <p class="card-text six-font-weight">Councillor Shirley Reynolds</p>
+                        <p class="card-text six-font-weight">Telford & Wrekin Council Cabinet Member for Children & Young People, Learning, Employment & Skills</p>
                     </div>
                 </div>
-                <div class="card col-12 col-sm-10 col-lg-4 get-involved-div get-involved-card news-div">
-                    <p class="small-date text-center text-decoration-underline">16th September 2025</p>
-                    <h3 class="card-title news-title text-center">&#10024; Save the Date &#10024;</h3>
+                <div class="card col-12 col-sm-10 col-lg-4 get-involved-div ten-br my-3 my-lg-0 mx-lg-3 news-div">
+                    <p class="small-date text-center text-decoration-underline">20th April 2026</p>
+                    <h3 class="card-title news-title text-center">It's Official! &#127881;</h3>
                     <div class="card-body">
-                        <p class="card-text">We're thrilled to announce the official date for our Networking Kick-Off Event!</p>
-                        <p class="card-text">&#128205; Hosted at Aston University Engineering Academy (Birmingham UTC), this special evening marks the start of an exciting 12-month schools engagement programme and the launch of our brand-new T-Levels Information Pack, designed exclusively for manufacturers.</p>
-                        <p class="card-text">On Thursday 20th November 2025 at 5:30pm, the staff and students of Birmingham UTC will welcome sponsors, exhibitors, and local manufacturers for an evening of drinks, networking, and celebration.</p>
-                        <p class="card-text">Highlights of the night include:</p>
-                        <ul class="card-text">
-                            <li>Sponsor exhibition stands</li>
-                            <li>A lively panel debate</li>
-                            <li>Insights from our Gold Sponsor</li>
-                        </ul>
-                        <p class="card-text">This will be the perfect opportunity to connect, collaborate, and celebrate the future of skills and manufacturing together.</p>
+                        <p class="card-text">On the 24th November, we'll be hosting the Shropshire and Telford Manufacturing Festival, bringing together over 700 students from local schools with some of the region's most outstanding and diverse manufacturers.</p>
+                        <p class="card-text">This event is all about showcasing the exciting and varied career opportunities within the manufacturing industry, helping young people see what's possible and connect directly with employers.</p>
+                        <p class="card-text">Following the huge success of the West Midlands Manufacturing Festival, which has already helped place ambitious young people into manufacturing apprenticeships, we're proud to be bringing that momentum to Shropshire.</p>
+                        <p class="card-text">Join us, and together, we'll inspire the next generation of talent and strengthen the future of manufacturing across the region.</p>
                     </div>
                 </div>
-                <div class="card col-12 col-sm-10 col-lg-4 get-involved-div get-involved-card news-div">
-                    <p class="small-date text-center text-decoration-underline">10th September 2025</p>
-                    <h3 class="card-title news-title text-center">Exciting Partnership Announcement! &#129309;</h3>
+                <div class="card col-12 col-sm-10 col-lg-4 get-involved-div ten-br news-div">
+                    <p class="small-date text-center text-decoration-underline">5th March 2026</p>
+                    <h3 class="card-title news-title text-center">What an amazing day! &#x1F64C;</h3>
                     <div class="card-body">
-                        <p class="card-text">We're delighted to announce that The Manufacturer will be joining us as our official media partner. </p>
-                        <p class="card-text">Their support will help us showcase our festival and highlight the amazing innovation and talent within the manufacturing community.</p>
-                        <p class="card-text">Joe Bush, Editor of The Manufacturer, told us: “We always want to be on the frontline of positive change, working with the most innovative manufacturers and technology providers, and sharing insights with our community.</p>
-                        <p class="card-text">For that reason, we're proud to support WMMF; an initiative that's taking real action to help manufacturers close the skills gap and preserve the future of UK manufacturing."</p>
+                        <p class="card-text">Last Thursday we delivered the West Midlands Manufacturing Festival — and what a day it was.</p>
+                        <p class="card-text">Bringing together manufacturers, educators, partners and young people from across the region, the event was all about showcasing the very best of our sector — the innovation, the opportunity and, most importantly, the people behind it.</p>
+                        <p class="card-text">Seeing the conversations taking place with the students and the genuine excitement about careers in manufacturing is exactly why we created this festival. Our industry has an incredible story to tell, and it was fantastic to see so many organisations step up to help tell it.</p>
+                        <p class="card-text">A huge thank you to every exhibitor, sponsor, supporter, partner and volunteer who made it happen. Events like this are never a solo effort — they're powered by collaboration.</p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Our Sponsors section -->
         <div class="container new-section" id="our-sponsors">
-            <h3 class="text-center eight-font-weight">Our Sponsors</h3>
+            <h3 class="text-center">Our Sponsors</h3>
         </div>
-        <h5 class="mt-3 text-center green-text eight-font-weight">Silver Sponsors</h5>
-        <div class="container new-section d-flex justify-content-center align-items-center flex-column flex-lg-row">
-            <a href="https://wagstaffrecruitment.co.uk/" target="_blank" class="mb-5 me-lg-5">
-                <img src="assets/images/logo-wagstaff.webp" alt="Wagstaff Recruitment logo" class="sponsor-silver">
-            </a>
-            <a href="https://enginuity.org/" target="_blank" class="mb-5 mb-lg-0 ms-lg-5">
+        <div class="container new-section d-flex justify-content-center align-items-center flex-column flex-lg-row pb-5">
+            <a href="https://enginuity.org/" target="_blank">
                 <img src="assets/images/logo-enginuity.webp" alt="Enginuity logo" class="sponsor-silver">
             </a>
-            <a href="https://www.nextgenmakers.co.uk/" target="_blank" class="mb-5 mb-lg-0 ms-lg-5">
-                <img src="assets/images/logo-next-gen-makers.webp" alt="Next Gen Makers logo" class="sponsor-silver">
-            </a>
         </div>
-        <h5 class="text-center green-text eight-font-weight">Bronze Sponsors</h5>
-        <div class="container new-section d-flex justify-content-evenly align-items-center flex-column flex-lg-row blue-line">
-            <a href="https://www.vanguardfoundry.co.uk/" target="_blank" class="mb-5">
-                <img src="assets/images/logo-vanguard.webp" alt="Vanguard Foundry logo" class="sponsor-bronze">
-            </a>
-        </div>
+        <div class="blue-line"></div>
         <!-- Our Supporters section -->
         <div class="container new-section">
-            <h3 class="text-center eight-font-weight">Our Supporters</h3>
+            <h3 class="text-center">Our Supporters</h3>
         </div>
         <div class="container new-section d-flex justify-content-evenly align-items-center flex-column flex-lg-row">
             <a href="https://app.engineersinsight.co.uk/" target="_blank">
@@ -272,62 +380,65 @@
                 <img src="assets/images/logo-tulpa.webp" alt="Tulpa Digital logo" class="support-logo">
             </a>
         </div>
+        <!-- Our Partners -->
+        <h4 class="text-center light-blue-text my-3" id="media-title">Our Partners</h4>
         <div class="container new-section d-flex justify-content-evenly align-items-center flex-column flex-lg-row">
-            <a href="https://www.crowe.com/uk" target="_blank">
-                <img src="assets/images/logo-crowe.webp" alt="Crowe logo" class="support-logo" id="crowe-logo">
+            <a href="https://www.themanufacturer.com/" target="_blank" class="mb-3">
+                <img src="assets/images/logo-the-manufacturer.webp" alt="The Manufacturer logo" class="support-logo" id="media-logo">
             </a>
-            <a href="https://www.designtechnology.org.uk/" target="_blank">
-                <img src="assets/images/logo-dt.webp" alt="Design and Technology Association logo" class="support-logo my-3 my-lg-0">
+            <a href="https://www.investtelford.co.uk/business-support/telford-together" target="_blank" class="my-3">
+                <img src="assets/images/telford-together-logo.webp" alt="Telford Together logo" class="support-logo">
             </a>
         </div>
-        <div class="container new-section d-flex justify-content-evenly flex-column flex-lg-row">
-            <!-- Media Partner -->
-            <div class="flex-column">
-                <h5 class="text-center green-text eight-font-weight mb-3" id="media-title">Media Partner</h5>
-                <div class="d-flex align-items-center justify-content-center" id="media-logo-div">
-                    <a href="https://www.themanufacturer.com/" target="_blank">
-                        <img src="assets/images/logo-the-manufacturer.webp" alt="The Manufacturer logo" class="support-logo" id="media-logo">
-                    </a>
-                </div>
-            </div>
-        </div>        
         <!-- Our Mission Section -->
         <div class="container new-section d-flex justify-content-center" id="our-mission">
-            <div class="col-12 col-sm-10 col-lg-8 font-p our-mission-div p-4">
-                <h3 class="text-center blue-text eight-font-weight">Our Mission</h3>
+            <div class="col-12 col-sm-10 col-lg-8 our-mission-div p-4">
+                <h3 class="text-center blue-text">Our Mission</h3>
                 <p>To make careers in engineering and manufacturing more visible, accessible, and exciting to young people—especially those in our local communities.</p>
-                <p>This event is designed to be interactive, inclusive, and inspiring, creating real-world connections between students and the engineers and manufacturers shaping tomorrow’s innovations.</p>
+                <p>These events are designed to be interactive, inclusive, and inspiring, creating real-world connections between students and the engineers and manufacturers shaping tomorrow's innovations.</p>
                 <p>We believe there is a place for everyone in Manufacturing.</p>
             </div>
         </div>
         <div class="new-section col-12 mission-image-div"></div>
-        <footer>
-            <div class="container d-flex flex-column flex-md-row justify-content-evenly">
-                <div class="mt-5">
-                    <h5>When & Where</h5>
-                    <p class="mb-3">Thursday 26th February 2026</p>
-                    <a href="https://maps.app.goo.gl/FoAvuueWaRQKAJiv9" target="_blank" class="footer-links no-decoration">The Hawthorns, <br>Halfords Ln, <br>West Bromwich, <br>B71 4LF</a>
+        <footer class="footer-section text-white p-3 p-md-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <div>
+                        <h2 class="text-center text-lg-start">Your Future Talent Starts Here</h2>
+                        <div class="d-flex justify-content-center justify-content-lg-start">
+                            <a href="#contact-us" class="btn footer-btn mt-3 py-2 px-5">Register Interest &#8594</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="mt-5">
-                    <h5>Get in Touch</h5>
-                    <ul class="d-flex flex-column no-list-style pb-1">
-                        <li class="mb-1">
-                            <a href="tel:+447770842682" class="footer-links no-decoration"><i class="fa-solid fa-phone footer-socials pe-1"></i> +447770842682</a>
-                        </li>
-                        <li class="mb-1">
-                            <a href="mailto:admin@ukmanufacturingfestivals.co.uk" class="footer-links no-decoration"><i class="fa-solid fa-envelope footer-socials pe-1"></i> admin@<wbr>ukmanufacturingfestivals<wbr>.co.uk</a>
-                        </li>
-                        <li class="mb-1">
-                            <a href="https://www.linkedin.com/company/manufacturing-festivals/" target="_blank" class="footer-links no-decoration"><i class="fa-brands fa-linkedin footer-socials pe-1"></i> UK Manufacturing Festivals</a>
-                        </li>
-                    </ul>
-                    <ul class="d-flex flex-column no-list-style pb-1"">
-                        <li class="mb-1"><i class="fa-regular fa-copyright"></i> Copyright Angela Lawlor Ltd 2025</li>
-                        <li class="mb-1">Designed and developed by Lilli McNally</li>
-                    </ul>
+                <div class="row align-items-lg-center">
+                    <div class="col-12 col-lg-4 mb-4 mb-lg-0 d-flex justify-content-center justify-content-lg-start">
+                        <img src="/assets/images/ukmf-logo-white.webp" class="footer-logo" alt="Logo">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 text-center text-sm-start mb-3">
+                        <h6>Navigation</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-1"><a href="#get-involved" class="text-decoration-none footer-links">Get Involved</a></li>
+                            <li class="mb-1"><a href="#" class="text-decoration-none footer-links">Privacy Policy</a></li>
+                            <li class="mb-1"><a href="#find-festival" class="text-decoration-none footer-links">Find Your Festival</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 text-center text-sm-start">
+                        <h6>Contact</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-1"><a href="tel:+447770842682" class="text-decoration-none footer-links">07770 842 682</a></li>
+                            <li class="mb-1"><a href="mailto:admin@ukmanufacturingfestivals.co.uk" class="text-decoration-none footer-links">admin@ukmanufacturing<br class="md-display xs-display">festivals.co.uk</a></li>
+                            <li><a href="https://www.linkedin.com/company/manufacturing-festivals/" class="text-decoration-none footer-links" target="_blank"><i class="fab fa-linkedin"></i> UK Manufacturing Festivals</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-4 mb-2 footer-line"></div>
+                <div class="d-flex flex-column flex-md-row justify-content-between small text-white-50 text-center">
+                    <p><i class="fa-regular fa-copyright" aria-hidden="true"></i>  Copyright Angela Lawlor Ltd 2025</p>
+                    <p class="mb-5 mb-md-2">Designed and Developed by Lilli McNally</p>
                 </div>
             </div>
         </footer>
+
         <script>
             window.onbeforeunload = () => {
                 for(const form of document.getElementsByTagName('form')) {
@@ -336,4 +447,4 @@
             }
         </script>
     </body>
-    </html>
+</html>
