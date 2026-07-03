@@ -355,9 +355,15 @@ textarea::-webkit-scrollbar-thumb {
 
 /* ------------------------------------------ Our Supporters */
 
-.sponsor-silver {
+.sponsor-gold {
     object-fit: cover;
     width: 300px;
+    height: auto;
+}
+
+.sponsor-silver {
+    object-fit: cover;
+    width: 250px;
     height: auto;
 }
 
@@ -552,6 +558,12 @@ footer {
     }
 
     /* Our Supporters */
+    .sponsor-gold {
+        object-fit: cover;
+        width: 400px;
+        height: auto;
+    }
+
     .sponsor-silver {
         object-fit: cover;
         width: 200px;
