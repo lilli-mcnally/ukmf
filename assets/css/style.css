@@ -355,20 +355,6 @@ textarea::-webkit-scrollbar-thumb {
     border: 1px solid #f1f1f1;
 }
 
-/* ------------------------------------------ News */
-
-.small-date {
-    font-size: 14px;
-}
-
-.news-div {
-    height: 600px;
-    overflow: scroll;
-}
-
-.news-title {
-    font-size: 24px;
-}
 
 /* ------------------------------------------ Our Supporters */
 
@@ -492,15 +478,6 @@ footer {
     /* Contact Us Form */
     .venue-map {
         border-radius: 10px;
-    }
-
-    /* News */
-    .small-date {
-        font-size: 16px;
-    }
-
-    .news-title {
-        font-size: 26px;
     }
 
     /* Our Mission */
@@ -670,12 +647,6 @@ footer {
     #crossroads-large {
         max-height: 500px;
     }
-
-    /* News */
-    .small-date {
-        font-size: 18px;
-    }
-
 
     /* Footer */
     footer p,
