@@ -565,8 +565,8 @@ footer {
 
     .sponsor-silver {
         object-fit: cover;
-        width: 200px;
-        height: auto;
+        width: auto;
+        height: 60px;
     }
 
     .sponsor-bronze {
